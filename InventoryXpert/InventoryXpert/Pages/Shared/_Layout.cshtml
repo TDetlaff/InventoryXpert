@@ -12,6 +12,12 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
+                <!-- TODO: Replace the text with our company logo? 
+
+                <a class="navbar-brand" asp-area="" asp-page="/Index">
+                    <img src="logo.png" alt="InventoryXpert Logo" style="height: 30px;">
+                </a>
+                -->
                 <a class="navbar-brand" asp-area="" asp-page="/Index">InventoryXpert</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -23,10 +29,21 @@
                             <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/View">View</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Edit">Edit</a>
+                        </li>
+                        <!-- Temporarily removing Privacy from navigation bar
+
+                        <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
                         </li>
+                        -->
                     </ul>
                 </div>
+                <!-- Added sign out button -->
+                <button class="btn btn-danger ml-auto">Sign Out</button>
             </div>
         </nav>
     </header>
@@ -36,9 +53,10 @@
         </main>
     </div>
 
+    <!-- Added new footer for copyright info -->
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2024 - InventoryXpert - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            &copy; @DateTime.Now.Year - InventoryXpert - All rights reserved.
         </div>
     </footer>
 
