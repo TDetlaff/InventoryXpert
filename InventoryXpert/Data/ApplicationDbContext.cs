@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using InventoryXpert.Models;
 
 namespace InventoryXpert.Data
 {
@@ -9,5 +10,6 @@ namespace InventoryXpert.Data
             : base(options)
         {
         }
+        public DbSet<InventoryXpert.Models.Order>? Order { get; set; }
     }
 }
