@@ -4,7 +4,7 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Your Orders</h1>
 
 <p>
     <a class="button btn-create" asp-action="Create">Create New</a>
@@ -13,13 +13,15 @@
     <thead class="table-dark">
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.ArrivalDate)
+                @* @Html.DisplayNameFor(model => model.ArrivalDate) *@
+                Arrival Date
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Shipped)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.PlacedDate)
+                @* @Html.DisplayNameFor(model => model.PlacedDate) *@
+                Placed On
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Supplier)
@@ -34,7 +36,15 @@
                 @Html.DisplayFor(modelItem => item.ArrivalDate)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Shipped)
+                @* @Html.DisplayFor(modelItem => item.Shipped) *@
+                @if (item.Shipped == 1)
+                {
+                    <text>Yes</text>
+                }
+                else
+                {
+                    <text>No</text>
+                }
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.PlacedDate)
