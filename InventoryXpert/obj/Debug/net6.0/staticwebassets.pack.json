@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\InventoryXpert.bundle.scp.css"
     },
     {
+      "Id": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\wwwroot\\css\\orderStyleSheet.css",
+      "PackagePath": "staticwebassets\\css\\orderStyleSheet.css"
+    },
+    {
       "Id": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
