@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - InventoryXpert</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/orderStyleSheet.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/InventoryXpert.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 </head>
 <body>
     <header>
@@ -43,8 +43,10 @@
                         -->
                     </ul>
                 </div>
-                <!-- Added sign out button -->
-                <button class="btn btn-danger ml-auto">Sign Out</button>
+                <div id="login-status-styles">
+                <!--Added partial to display _LoginPartial for login information-->
+                <partial name="_loginpartial" />
+                </div>
             </div>
         </nav>
     </header>
