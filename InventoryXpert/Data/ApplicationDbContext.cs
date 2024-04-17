@@ -11,5 +11,9 @@ namespace InventoryXpert.Data
         {
         }
         public DbSet<InventoryXpert.Models.Order>? Order { get; set; }
+        public DbSet<InventoryXpert.Models.Category>? Category { get; set; }
+        public DbSet<InventoryXpert.Models.Item>? Item { get; set; }
+        public DbSet<InventoryXpert.Models.OrderRecord>? OrderRecord { get; set; }
+        public DbSet<InventoryXpert.Models.Supplier>? Supplier { get; set; }
     }
 }
