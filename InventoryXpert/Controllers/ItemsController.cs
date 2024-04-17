@@ -56,7 +56,7 @@ namespace InventoryXpert.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ItemId,Description,active,CategoryId,StockedQuantity,AvailableQuantity,QuantityOnOrder,Price,Location,tagA,tagB,tagC,tagD,tagE")] Item item)
+        public async Task<IActionResult> Create([Bind("ItemId,Description,Active,CategoryId,StockedQuantity,AvailableQuantity,QuantityOnOrder,Price,Location,TagA,TagB,TagC,TagD,TagE")] Item item)
         {
             if (ModelState.IsValid)
             {
@@ -88,7 +88,7 @@ namespace InventoryXpert.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ItemId,Description,active,CategoryId,StockedQuantity,AvailableQuantity,QuantityOnOrder,Price,Location,tagA,tagB,tagC,tagD,tagE")] Item item)
+        public async Task<IActionResult> Edit(int id, [Bind("ItemId,Description,Active,CategoryId,StockedQuantity,AvailableQuantity,QuantityOnOrder,Price,Location,TagA,TagB,TagC,TagD,TagE")] Item item)
         {
             if (id != item.ItemId)
             {

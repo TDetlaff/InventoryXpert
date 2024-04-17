@@ -54,6 +54,9 @@ namespace InventoryXpert.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ItemId"), 1L, 1);
 
+                    b.Property<bool>("Active")
+                        .HasColumnType("bit");
+
                     b.Property<int>("AvailableQuantity")
                         .HasColumnType("int");
 
@@ -77,26 +80,23 @@ namespace InventoryXpert.Data.Migrations
                     b.Property<int>("StockedQuantity")
                         .HasColumnType("int");
 
-                    b.Property<bool>("active")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("tagA")
+                    b.Property<string>("TagA")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("tagB")
+                    b.Property<string>("TagB")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("tagC")
+                    b.Property<string>("TagC")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("tagD")
+                    b.Property<string>("TagD")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("tagE")
+                    b.Property<string>("TagE")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -119,8 +119,8 @@ namespace InventoryXpert.Data.Migrations
                     b.Property<DateTime>("PlacedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("Shipped")
-                        .HasColumnType("int");
+                    b.Property<bool>("Shipped")
+                        .HasColumnType("bit");
 
                     b.Property<int>("Supplier")
                         .HasColumnType("int");
