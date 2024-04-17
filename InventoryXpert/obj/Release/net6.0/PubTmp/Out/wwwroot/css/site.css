@@ -1,0 +1,81 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #446285;
+    color: white;
+}
+
+#brand {
+    color: white;
+}
+
+.navbar {
+    border-bottom: 1px solid #5c6468;
+    background-color: #2c8cfb;
+}
+
+#nav-home {
+    color: white;
+}
+
+#nav-view {
+    color: white;
+}
+
+#nav-edit {
+    color: white;
+}
+
+.navbar-nav .nav-link {
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover, #nav-home:hover, #nav-view:hover, #nav-edit:hover {
+    background-color: gold;
+    border-radius: 5px;
+    transform: scale(1.1);
+    color: black;
+    font-weight: bold;
+}
+
+#login-status-styles .nav-link,
+#login-status-styles #nav-home,
+#login-status-styles #nav-view,
+#login-status-styles #nav-edit {
+    background-color: transparent;
+    color: rgb(33, 37, 41);
+    font-weight: normal;
+}
+
+#login-status-styles .nav-link:hover,
+#login-status-styles #nav-home:hover,
+#login-status-styles #nav-view:hover,
+#login-status-styles #nav-edit:hover {
+    background-color: transparent;
+    transform: none;
+    color: white;
+    font-weight: normal;
+}
+
+.form-floating {
+    color: #6c757d; /* Adjusts placeholder in text fields to be visible */
+}
+
+.footer {
+    border-top: 1px solid #5c6468;
+    background-color: #2c4c71;
+}

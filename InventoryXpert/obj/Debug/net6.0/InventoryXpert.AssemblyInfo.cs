@@ -11,7 +11,6 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-InventoryXpert-c5fbf524-5cf1-44a4-b93b-440d80c1ba9d")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("InventoryXpert")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
