@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - InventoryXpert</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/orderStyleSheet.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/viewsBtnTable.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/InventoryXpert.styles.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/accountViewsStyles.css" asp-append-version="true" />
 </head>
 <body>
     <header>
@@ -52,7 +53,8 @@
                         -->
                     </ul>
                 </div>
-                <div id="login-status-styles">
+                <div id="login-status-styles"> <!-- Old styles of Login/Register button on home page-->
+                @* <div class="nav-link"> *@
                 <!--Added partial to display _LoginPartial for login information-->
                 <partial name="_loginpartial" />
                 </div>

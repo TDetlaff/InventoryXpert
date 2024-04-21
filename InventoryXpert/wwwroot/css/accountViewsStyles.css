@@ -1,0 +1,26 @@
+﻿#register, 
+#forgot-password, 
+#resend-confirmation {
+    background-color: #5cacfa;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 8px 17px;
+}
+
+#register:hover {
+    background-color: gold;
+    color: black;
+}
+
+#registerSubmit, #login-submit {
+    background-color: #5cacfa;
+    border: none;
+}
+
+#registerSubmit {
+    display: block;
+    margin-top: 10px;
+}
