@@ -8,11 +8,11 @@
 <h1>Details</h1>
 
 <div>
-    <h4>Category</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.CategoryName)
+            @* @Html.DisplayNameFor(model => model.CategoryName) *@
+            Category Name
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.CategoryName)
@@ -24,7 +24,8 @@
             @Html.DisplayFor(model => model.Group)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.SupplierId)
+            @* @Html.DisplayNameFor(model => model.SupplierId) *@
+            Supplier ID
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.SupplierId)

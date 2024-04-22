@@ -5,7 +5,7 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Index</h1>
+<h1>Manage your items</h1>
 
 <p>
     <a class="button btn-create" asp-action="Create">Create New</a>
@@ -20,16 +20,20 @@
                 @Html.DisplayNameFor(model => model.Active)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.CategoryId)
+                @* @Html.DisplayNameFor(model => model.CategoryId) *@
+                Category ID
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.StockedQuantity)
+                @* @Html.DisplayNameFor(model => model.StockedQuantity) *@
+                Stocked Quantity
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.AvailableQuantity)
+                @* @Html.DisplayNameFor(model => model.AvailableQuantity) *@
+                Available Quantity
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.QuantityOnOrder)
+                @* @Html.DisplayNameFor(model => model.QuantityOnOrder) *@
+                Quantity On Order
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Price)

@@ -5,7 +5,7 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Index</h1>
+<h1>Manage your orders</h1>
 
 <p>
     <a class="button btn-create" asp-action="Create">Create New</a>
@@ -14,13 +14,15 @@
     <thead class="table-dark">
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.ArrivalDate)
+                @* @Html.DisplayNameFor(model => model.ArrivalDate) *@
+                Arrival Date
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Shipped)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.PlacedDate)
+                @* @Html.DisplayNameFor(model => model.PlacedDate) *@
+                Placed On
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Supplier)

@@ -5,7 +5,7 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Index</h1>
+<h1>Manage your suppliers</h1>
 
 <p>
     <a class="button btn-create" asp-action="Create">Create New</a>
@@ -14,7 +14,8 @@
     <thead class="table-dark">
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.SupplierName)
+                @* @Html.DisplayNameFor(model => model.SupplierName) *@
+                Supplier Name
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Address)
@@ -26,13 +27,15 @@
                 @Html.DisplayNameFor(model => model.Region)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.PostalCode)
+                @* @Html.DisplayNameFor(model => model.PostalCode) *@
+                Postal Code
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Country)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Phone)
+                @* @Html.DisplayNameFor(model => model.Phone) *@
+                Phone Number
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Fax)

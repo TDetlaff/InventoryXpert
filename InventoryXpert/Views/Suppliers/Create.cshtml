@@ -5,16 +5,15 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Create</h1>
+<h1>Create a new supplier</h1>
 
-<h4>Supplier</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="SupplierName" class="control-label"></label>
+                <label asp-for="SupplierName" class="control-label">Supplier Name</label>
                 <input asp-for="SupplierName" class="form-control" />
                 <span asp-validation-for="SupplierName" class="text-danger"></span>
             </div>
@@ -34,7 +33,7 @@
                 <span asp-validation-for="Region" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="PostalCode" class="control-label"></label>
+                <label asp-for="PostalCode" class="control-label">Postal Code</label>
                 <input asp-for="PostalCode" class="form-control" />
                 <span asp-validation-for="PostalCode" class="text-danger"></span>
             </div>
@@ -44,7 +43,7 @@
                 <span asp-validation-for="Country" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Phone" class="control-label"></label>
+                <label asp-for="Phone" class="control-label">Phone Number</label>
                 <input asp-for="Phone" class="form-control" />
                 <span asp-validation-for="Phone" class="text-danger"></span>
             </div>
