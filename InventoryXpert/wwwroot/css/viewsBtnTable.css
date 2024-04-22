@@ -3,7 +3,6 @@
     color: white;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
     text-decoration: none;
 }
 
@@ -13,10 +12,6 @@
 
 .btn-dataOptions {
     padding: 2px 4px;
-}
-
-.btn-save {
-    padding: 8px 17px;
 }
 
 .btn-back {
@@ -36,7 +31,11 @@
     padding: 7px 17px;
 }
 
-.btn-create:hover, .btn-dataOptions:hover, .btn-save:hover, .btn-back:hover, .btn-details:hover {
+.btn-create:hover, 
+.btn-dataOptions:hover, 
+.btn-save:hover, 
+.btn-back:hover, 
+.btn-details:hover {
     background-color: gold;
     color: black;
     /*font-weight: bold;*/

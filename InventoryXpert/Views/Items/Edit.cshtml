@@ -5,9 +5,8 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Edit</h1>
+<h1>Edit an item</h1>
 
-<h4>Item</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -25,22 +24,22 @@
                 </label>
             </div>
             <div class="form-group">
-                <label asp-for="CategoryId" class="control-label"></label>
+                <label asp-for="CategoryId" class="control-label">Category ID</label>
                 <input asp-for="CategoryId" class="form-control" />
                 <span asp-validation-for="CategoryId" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="StockedQuantity" class="control-label"></label>
+                <label asp-for="StockedQuantity" class="control-label">Stocked Quantity</label>
                 <input asp-for="StockedQuantity" class="form-control" />
                 <span asp-validation-for="StockedQuantity" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="AvailableQuantity" class="control-label"></label>
+                <label asp-for="AvailableQuantity" class="control-label">Available Quantity</label>
                 <input asp-for="AvailableQuantity" class="form-control" />
                 <span asp-validation-for="AvailableQuantity" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="QuantityOnOrder" class="control-label"></label>
+                <label asp-for="QuantityOnOrder" class="control-label">Quantity On Order</label>
                 <input asp-for="QuantityOnOrder" class="form-control" />
                 <span asp-validation-for="QuantityOnOrder" class="text-danger"></span>
             </div>
@@ -80,14 +79,14 @@
                 <span asp-validation-for="TagE" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="submit" value="Save" class="button btn-details" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a class="button btn-back" asp-action="Index">Back to List</a>
 </div>
 
 @section Scripts {

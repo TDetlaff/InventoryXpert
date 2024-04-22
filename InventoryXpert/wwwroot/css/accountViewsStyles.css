@@ -1,0 +1,57 @@
+﻿/*.btn {
+    background-color: #5cacfa;
+    color: white;
+    border: none;
+    display: block;
+    margin-top: 8px
+}*/
+
+.btn-display {
+    background-color: #5cacfa;
+    color: white;
+    border: none;
+    display: block;
+    margin-top: 8px
+}
+
+.btn-color {
+    background-color: #5cacfa;
+    color: white;
+    border: none;
+}
+
+#register, 
+#forgot-password, 
+#resend-confirmation {
+    background-color: #5cacfa;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 6px 13px;
+}
+
+#forgot-password {
+    display: block;
+    margin-top: 8px;
+    width: 190px;
+}
+
+#register:hover,
+#forgot-password:hover,
+#resend-confirmation:hover,
+.btn-display:hover,
+.btn-color:hover {
+    background-color: gold;
+    color: black;
+}
+
+
+.nav-pills .nav-link.active {
+    background-color: #5cacfa;
+}
+
+.nav-pills .nav-link {
+    color: #a5b8cc;
+}
