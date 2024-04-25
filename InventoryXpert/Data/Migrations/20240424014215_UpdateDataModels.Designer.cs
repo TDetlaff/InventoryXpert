@@ -4,6 +4,7 @@ using InventoryXpert.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace InventoryXpert.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240424014215_UpdateDataModels")]
+    partial class UpdateDataModels
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -31,17 +33,17 @@ namespace InventoryXpert.Data.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CategoryId"), 1L, 1);
 
                     b.Property<string>("CategoryName")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Group")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("SupplierId")
                         .HasColumnType("int");
 
                     b.HasKey("CategoryId");
-
-                    b.HasIndex("SupplierId");
 
                     b.ToTable("Category");
                 });
@@ -54,44 +56,50 @@ namespace InventoryXpert.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ItemId"), 1L, 1);
 
-                    b.Property<bool?>("Active")
+                    b.Property<bool>("Active")
                         .HasColumnType("bit");
 
-                    b.Property<int?>("AvailableQuantity")
+                    b.Property<int>("AvailableQuantity")
                         .HasColumnType("int");
 
-                    b.Property<int?>("CategoryId")
-                        .IsRequired()
+                    b.Property<int>("CategoryId")
                         .HasColumnType("int");
 
                     b.Property<string>("Description")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Location")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<float?>("Price")
+                    b.Property<float>("Price")
                         .HasColumnType("real");
 
-                    b.Property<int?>("QuantityOnOrder")
+                    b.Property<int>("QuantityOnOrder")
                         .HasColumnType("int");
 
-                    b.Property<int?>("StockedQuantity")
+                    b.Property<int>("StockedQuantity")
                         .HasColumnType("int");
 
                     b.Property<string>("TagA")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("TagB")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("TagC")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("TagD")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("TagE")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("ItemId");
@@ -140,8 +148,7 @@ namespace InventoryXpert.Data.Migrations
                         .IsRequired()
                         .HasColumnType("int");
 
-                    b.Property<int?>("OrderId")
-                        .IsRequired()
+                    b.Property<int>("OrderId")
                         .HasColumnType("int");
 
                     b.Property<int>("Quantity")
@@ -150,8 +157,6 @@ namespace InventoryXpert.Data.Migrations
                     b.HasKey("OrderRecordId");
 
                     b.HasIndex("ItemId");
-
-                    b.HasIndex("OrderId");
 
                     b.ToTable("OrderRecord");
                 });
@@ -182,13 +187,14 @@ namespace InventoryXpert.Data.Migrations
                     b.Property<string>("Phone")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("PostalCode")
+                    b.Property<int>("PostalCode")
                         .HasColumnType("int");
 
                     b.Property<string>("Region")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("SupplierName")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("SupplierId");
@@ -398,23 +404,12 @@ namespace InventoryXpert.Data.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("InventoryXpert.Models.Category", b =>
-                {
-                    b.HasOne("InventoryXpert.Models.Supplier", "Supplier")
-                        .WithMany()
-                        .HasForeignKey("SupplierId")
-                        .OnDelete(DeleteBehavior.SetNull)
-                        .IsRequired();
-
-                    b.Navigation("Supplier");
-                });
-
             modelBuilder.Entity("InventoryXpert.Models.Item", b =>
                 {
                     b.HasOne("InventoryXpert.Models.Category", "Category")
                         .WithMany("Items")
                         .HasForeignKey("CategoryId")
-                        .OnDelete(DeleteBehavior.Cascade) //TODO: Maybe set null idk lmao?
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Category");
@@ -423,7 +418,7 @@ namespace InventoryXpert.Data.Migrations
             modelBuilder.Entity("InventoryXpert.Models.Order", b =>
                 {
                     b.HasOne("InventoryXpert.Models.Supplier", "Supplier")
-                        .WithMany()
+                        .WithMany("Orders")
                         .HasForeignKey("SupplierId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -439,15 +434,7 @@ namespace InventoryXpert.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("InventoryXpert.Models.Order", "Order")
-                        .WithMany("OrderRecords")
-                        .HasForeignKey("OrderId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.Navigation("Item");
-
-                    b.Navigation("Order");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -506,9 +493,9 @@ namespace InventoryXpert.Data.Migrations
                     b.Navigation("Items");
                 });
 
-            modelBuilder.Entity("InventoryXpert.Models.Order", b =>
+            modelBuilder.Entity("InventoryXpert.Models.Supplier", b =>
                 {
-                    b.Navigation("OrderRecords");
+                    b.Navigation("Orders");
                 });
 #pragma warning restore 612, 618
         }

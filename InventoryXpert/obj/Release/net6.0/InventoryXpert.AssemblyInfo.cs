@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InventoryXpert")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+30dd9f3f623fb18565dfe08011324881822be891")]
 [assembly: System.Reflection.AssemblyProductAttribute("InventoryXpert")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InventoryXpert")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

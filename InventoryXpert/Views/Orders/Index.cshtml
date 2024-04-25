@@ -25,7 +25,7 @@
                 Placed On
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Supplier)
+                @Html.DisplayNameFor(model => model.SupplierId)
             </th>
             <th></th>
         </tr>
@@ -43,12 +43,12 @@
                 @Html.DisplayFor(modelItem => item.PlacedDate)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Supplier)
+                @Html.DisplayFor(modelItem => item.SupplierId)
             </td>
             <td>
-                <a class="button btn-dataOptions" asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a class="button btn-dataOptions" asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a class="button btn-dataOptions" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    <a class="button btn-dataOptions" asp-action="Edit" asp-route-id="@item.OrderId">Edit</a> |
+                    <a class="button btn-dataOptions" asp-action="Details" asp-route-id="@item.OrderId">Details</a> |
+                    <a class="button btn-dataOptions" asp-action="Delete" asp-route-id="@item.OrderId">Delete</a>
             </td>
         </tr>
 }

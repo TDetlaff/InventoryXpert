@@ -38,7 +38,7 @@ namespace InventoryXpert.Controllers
             }
 
             var orderRecord = await _context.OrderRecord
-                .FirstOrDefaultAsync(m => m.OrderRecordID == id);
+                .FirstOrDefaultAsync(m => m.OrderRecordId == id);
             if (orderRecord == null)
             {
                 return NotFound();
@@ -58,7 +58,7 @@ namespace InventoryXpert.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("OrderRecordID,OrderID,ProductId,Quantity")] OrderRecord orderRecord)
+        public async Task<IActionResult> Create([Bind("OrderRecordId,OrderId,ProductId,Quantity")] OrderRecord orderRecord)
         {
             if (ModelState.IsValid)
             {
@@ -90,9 +90,9 @@ namespace InventoryXpert.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("OrderRecordID,OrderID,ProductId,Quantity")] OrderRecord orderRecord)
+        public async Task<IActionResult> Edit(int id, [Bind("OrderRecordId,OrderId,ItemId,Quantity")] OrderRecord orderRecord)
         {
-            if (id != orderRecord.OrderRecordID)
+            if (id != orderRecord.OrderRecordId)
             {
                 return NotFound();
             }
@@ -106,7 +106,7 @@ namespace InventoryXpert.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!OrderRecordExists(orderRecord.OrderRecordID))
+                    if (!OrderRecordExists(orderRecord.OrderRecordId))
                     {
                         return NotFound();
                     }
@@ -129,7 +129,7 @@ namespace InventoryXpert.Controllers
             }
 
             var orderRecord = await _context.OrderRecord
-                .FirstOrDefaultAsync(m => m.OrderRecordID == id);
+                .FirstOrDefaultAsync(m => m.OrderRecordId == id);
             if (orderRecord == null)
             {
                 return NotFound();
@@ -159,7 +159,7 @@ namespace InventoryXpert.Controllers
 
         private bool OrderRecordExists(int id)
         {
-          return (_context.OrderRecord?.Any(e => e.OrderRecordID == id)).GetValueOrDefault();
+          return (_context.OrderRecord?.Any(e => e.OrderRecordId == id)).GetValueOrDefault();
         }
     }
 }
