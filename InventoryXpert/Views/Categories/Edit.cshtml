@@ -5,8 +5,9 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Edit a category</h1>
+<h1>Edit</h1>
 
+<h4>Category</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -14,7 +15,7 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="CategoryId" />
             <div class="form-group">
-                <label asp-for="CategoryName" class="control-label">Category Name</label>
+                <label asp-for="CategoryName" class="control-label"></label>
                 <input asp-for="CategoryName" class="form-control" />
                 <span asp-validation-for="CategoryName" class="text-danger"></span>
             </div>
@@ -24,19 +25,19 @@
                 <span asp-validation-for="Group" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="SupplierId" class="control-label">Supplier ID</label>
-                <input asp-for="SupplierId" class="form-control" />
+                <label asp-for="SupplierId" class="control-label"></label>
+                <select asp-for="SupplierId" class="form-control" asp-items="ViewBag.SupplierId"></select>
                 <span asp-validation-for="SupplierId" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Save" class="button btn-details" />
+                <input type="submit" value="Save" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a class="button btn-back" asp-action="Index">Back to List</a>
+    <a asp-action="Index">Back to List</a>
 </div>
 
 @section Scripts {

@@ -7,11 +7,9 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using InventoryXpert.Data;
 using InventoryXpert.Models;
-using Microsoft.AspNetCore.Authorization;
 
 namespace InventoryXpert.Controllers
 {
-    [Authorize]
     public class OrdersController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -24,9 +22,8 @@ namespace InventoryXpert.Controllers
         // GET: Orders
         public async Task<IActionResult> Index()
         {
-              return _context.Order != null ? 
-                          View(await _context.Order.ToListAsync()) :
-                          Problem("Entity set 'ApplicationDbContext.Order'  is null.");
+            var applicationDbContext = _context.Order.Include(o => o.Supplier);
+            return View(await applicationDbContext.ToListAsync());
         }
 
         // GET: Orders/Details/5
@@ -38,6 +35,7 @@ namespace InventoryXpert.Controllers
             }
 
             var order = await _context.Order
+                .Include(o => o.Supplier)
                 .FirstOrDefaultAsync(m => m.OrderId == id);
             if (order == null)
             {
@@ -50,6 +48,7 @@ namespace InventoryXpert.Controllers
         // GET: Orders/Create
         public IActionResult Create()
         {
+            ViewData["SupplierId"] = new SelectList(_context.Supplier, "SupplierId", "SupplierId");
             return View();
         }
 
@@ -58,14 +57,18 @@ namespace InventoryXpert.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("(OrderId,ArrivalDate,Shipped,PlacedDate,SupplierId")] Order order)
+        public async Task<IActionResult> Create([Bind("OrderId,Shipped,ArrivalDate,PlacedDate,SupplierId")] Order order)
         {
+            System.Diagnostics.Debug.WriteLine("Check");
             if (ModelState.IsValid)
             {
                 _context.Add(order);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            System.Diagnostics.Debug.WriteLine("Checky");
+            ViewData["SupplierId"] = new SelectList(_context.Supplier, "SupplierId", "SupplierId", order.SupplierId);
+            System.Diagnostics.Debug.WriteLine("Checkadingdong");
             return View(order);
         }
 
@@ -82,6 +85,7 @@ namespace InventoryXpert.Controllers
             {
                 return NotFound();
             }
+            ViewData["SupplierId"] = new SelectList(_context.Supplier, "SupplierId", "SupplierId", order.SupplierId);
             return View(order);
         }
 
@@ -90,7 +94,7 @@ namespace InventoryXpert.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("OrderId,ArrivalDate,Shipped,PlacedDate,SupplierId")] Order order)
+        public async Task<IActionResult> Edit(int id, [Bind("OrderId,Shipped,ArrivalDate,PlacedDate,SupplierId")] Order order)
         {
             if (id != order.OrderId)
             {
@@ -117,6 +121,7 @@ namespace InventoryXpert.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["SupplierId"] = new SelectList(_context.Supplier, "SupplierId", "SupplierId", order.SupplierId);
             return View(order);
         }
 
@@ -129,6 +134,7 @@ namespace InventoryXpert.Controllers
             }
 
             var order = await _context.Order
+                .Include(o => o.Supplier)
                 .FirstOrDefaultAsync(m => m.OrderId == id);
             if (order == null)
             {

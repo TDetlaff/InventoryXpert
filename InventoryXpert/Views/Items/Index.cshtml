@@ -5,13 +5,13 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Manage your items</h1>
+<h1>Index</h1>
 
 <p>
-    <a class="button btn-create" asp-action="Create">Create New</a>
+    <a asp-action="Create">Create New</a>
 </p>
-<table class="table table-striped table-light table-bordered table-hover">
-    <thead class="table-dark">
+<table class="table">
+    <thead>
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.Description)
@@ -20,20 +20,13 @@
                 @Html.DisplayNameFor(model => model.Active)
             </th>
             <th>
-                @* @Html.DisplayNameFor(model => model.CategoryId) *@
-                Category ID
+                @Html.DisplayNameFor(model => model.StockedQuantity)
             </th>
             <th>
-                @* @Html.DisplayNameFor(model => model.StockedQuantity) *@
-                Stocked Quantity
+                @Html.DisplayNameFor(model => model.AvailableQuantity)
             </th>
             <th>
-                @* @Html.DisplayNameFor(model => model.AvailableQuantity) *@
-                Available Quantity
-            </th>
-            <th>
-                @* @Html.DisplayNameFor(model => model.QuantityOnOrder) *@
-                Quantity On Order
+                @Html.DisplayNameFor(model => model.QuantityOnOrder)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Price)
@@ -42,24 +35,22 @@
                 @Html.DisplayNameFor(model => model.Location)
             </th>
             <th>
-                @* @Html.DisplayNameFor(model => model.TagA) *@
-                Tag A
+                @Html.DisplayNameFor(model => model.TagA)
             </th>
             <th>
-                @* @Html.DisplayNameFor(model => model.TagB) *@
-                Tag B
+                @Html.DisplayNameFor(model => model.TagB)
             </th>
             <th>
-                @* @Html.DisplayNameFor(model => model.TagC) *@
-                Tag C
+                @Html.DisplayNameFor(model => model.TagC)
             </th>
             <th>
-                @* @Html.DisplayNameFor(model => model.TagD) *@
-                Tag D
+                @Html.DisplayNameFor(model => model.TagD)
             </th>
             <th>
-                @* @Html.DisplayNameFor(model => model.TagE) *@
-                Tag E
+                @Html.DisplayNameFor(model => model.TagE)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Category)
             </th>
             <th></th>
         </tr>
@@ -72,9 +63,6 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Active)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CategoryId)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.StockedQuantity)
@@ -107,9 +95,12 @@
                 @Html.DisplayFor(modelItem => item.TagE)
             </td>
             <td>
-                <a class="button btn-dataOptions" asp-action="Edit" asp-route-id="@item.ItemId">Edit</a> |
-                <a class="button btn-dataOptions" asp-action="Details" asp-route-id="@item.ItemId">Details</a> |
-                <a class="button btn-dataOptions" asp-action="Delete" asp-route-id="@item.ItemId">Delete</a>
+                @Html.DisplayFor(modelItem => item.Category.CategoryId)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ItemId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.ItemId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.ItemId">Delete</a>
             </td>
         </tr>
 }

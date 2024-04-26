@@ -5,27 +5,25 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Manage your orders</h1>
+<h1>Index</h1>
 
 <p>
-    <a class="button btn-create" asp-action="Create">Create New</a>
+    <a asp-action="Create">Create New</a>
 </p>
-<table class="table table-striped table-light table-bordered table-hover">
-    <thead class="table-dark">
+<table class="table">
+    <thead>
         <tr>
-            <th>
-                @* @Html.DisplayNameFor(model => model.ArrivalDate) *@
-                Arrival Date
-            </th>
             <th>
                 @Html.DisplayNameFor(model => model.Shipped)
             </th>
             <th>
-                @* @Html.DisplayNameFor(model => model.PlacedDate) *@
-                Placed On
+                @Html.DisplayNameFor(model => model.ArrivalDate)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.SupplierId)
+                @Html.DisplayNameFor(model => model.PlacedDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Supplier)
             </th>
             <th></th>
         </tr>
@@ -34,21 +32,21 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.ArrivalDate)
+                @Html.DisplayFor(modelItem => item.Shipped)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Shipped)
+                @Html.DisplayFor(modelItem => item.ArrivalDate)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.PlacedDate)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.SupplierId)
+                @Html.DisplayFor(modelItem => item.Supplier.SupplierId)
             </td>
             <td>
-                    <a class="button btn-dataOptions" asp-action="Edit" asp-route-id="@item.OrderId">Edit</a> |
-                    <a class="button btn-dataOptions" asp-action="Details" asp-route-id="@item.OrderId">Details</a> |
-                    <a class="button btn-dataOptions" asp-action="Delete" asp-route-id="@item.OrderId">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.OrderId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.OrderId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.OrderId">Delete</a>
             </td>
         </tr>
 }

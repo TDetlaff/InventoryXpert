@@ -7,11 +7,9 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using InventoryXpert.Data;
 using InventoryXpert.Models;
-using Microsoft.AspNetCore.Authorization;
 
 namespace InventoryXpert.Controllers
 {
-    [Authorize]
     public class ItemsController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -24,9 +22,8 @@ namespace InventoryXpert.Controllers
         // GET: Items
         public async Task<IActionResult> Index()
         {
-              return _context.Item != null ? 
-                          View(await _context.Item.ToListAsync()) :
-                          Problem("Entity set 'ApplicationDbContext.Item'  is null.");
+            var applicationDbContext = _context.Item.Include(i => i.Category);
+            return View(await applicationDbContext.ToListAsync());
         }
 
         // GET: Items/Details/5
@@ -38,6 +35,7 @@ namespace InventoryXpert.Controllers
             }
 
             var item = await _context.Item
+                .Include(i => i.Category)
                 .FirstOrDefaultAsync(m => m.ItemId == id);
             if (item == null)
             {
@@ -50,6 +48,7 @@ namespace InventoryXpert.Controllers
         // GET: Items/Create
         public IActionResult Create()
         {
+            ViewData["CategoryId"] = new SelectList(_context.Category, "CategoryId", "CategoryId");
             return View();
         }
 
@@ -66,6 +65,7 @@ namespace InventoryXpert.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["CategoryId"] = new SelectList(_context.Category, "CategoryId", "CategoryId", item.CategoryId);
             return View(item);
         }
 
@@ -82,6 +82,7 @@ namespace InventoryXpert.Controllers
             {
                 return NotFound();
             }
+            ViewData["CategoryId"] = new SelectList(_context.Category, "CategoryId", "CategoryId", item.CategoryId);
             return View(item);
         }
 
@@ -117,6 +118,7 @@ namespace InventoryXpert.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["CategoryId"] = new SelectList(_context.Category, "CategoryId", "CategoryId", item.CategoryId);
             return View(item);
         }
 
@@ -129,6 +131,7 @@ namespace InventoryXpert.Controllers
             }
 
             var item = await _context.Item
+                .Include(i => i.Category)
                 .FirstOrDefaultAsync(m => m.ItemId == id);
             if (item == null)
             {

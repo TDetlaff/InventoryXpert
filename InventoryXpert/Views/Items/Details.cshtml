@@ -8,6 +8,7 @@
 <h1>Details</h1>
 
 <div>
+    <h4>Item</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
@@ -23,29 +24,19 @@
             @Html.DisplayFor(model => model.Active)
         </dd>
         <dt class = "col-sm-2">
-            @* @Html.DisplayNameFor(model => model.CategoryId) *@
-            Category ID
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.CategoryId)
-        </dd>
-        <dt class = "col-sm-2">
-            @* @Html.DisplayNameFor(model => model.StockedQuantity) *@
-            Stocked Quantity
+            @Html.DisplayNameFor(model => model.StockedQuantity)
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.StockedQuantity)
         </dd>
         <dt class = "col-sm-2">
-            @* @Html.DisplayNameFor(model => model.AvailableQuantity) *@
-            Available Quantity
+            @Html.DisplayNameFor(model => model.AvailableQuantity)
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.AvailableQuantity)
         </dd>
         <dt class = "col-sm-2">
-            @* @Html.DisplayNameFor(model => model.QuantityOnOrder) *@
-            Quantity On Order
+            @Html.DisplayNameFor(model => model.QuantityOnOrder)
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.QuantityOnOrder)
@@ -63,43 +54,44 @@
             @Html.DisplayFor(model => model.Location)
         </dd>
         <dt class = "col-sm-2">
-            @* @Html.DisplayNameFor(model => model.TagA) *@
-            Tag A
+            @Html.DisplayNameFor(model => model.TagA)
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.TagA)
         </dd>
         <dt class = "col-sm-2">
-            @* @Html.DisplayNameFor(model => model.TagB) *@
-            Tag B
+            @Html.DisplayNameFor(model => model.TagB)
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.TagB)
         </dd>
         <dt class = "col-sm-2">
-            @* @Html.DisplayNameFor(model => model.TagC) *@
-            Tag C
+            @Html.DisplayNameFor(model => model.TagC)
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.TagC)
         </dd>
         <dt class = "col-sm-2">
-            @* @Html.DisplayNameFor(model => model.TagD) *@
-            Tag D
+            @Html.DisplayNameFor(model => model.TagD)
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.TagD)
         </dd>
         <dt class = "col-sm-2">
-            @* @Html.DisplayNameFor(model => model.TagE) *@
-            Tag E
+            @Html.DisplayNameFor(model => model.TagE)
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.TagE)
         </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Category)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Category.CategoryId)
+        </dd>
     </dl>
 </div>
 <div>
-    <a class="button btn-details" asp-action="Edit" asp-route-id="@Model?.ItemId">Edit</a> |
-    <a class="button btn-details" asp-action="Index">Back to List</a>
+    <a asp-action="Edit" asp-route-id="@Model?.ItemId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
 </div>
