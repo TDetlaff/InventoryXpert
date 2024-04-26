@@ -9,11 +9,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace InventoryXpert.Data.Migrations
+namespace InventoryXpert.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240424231731_4 24 Modify Data Models")]
-    partial class _424ModifyDataModels
+    [Migration("20240426001720_4 25 Hard Reset 5")]
+    partial class _425HardReset5
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -38,7 +38,8 @@ namespace InventoryXpert.Data.Migrations
                     b.Property<string>("Group")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("SupplierId")
+                    b.Property<int?>("SupplierId")
+                        .IsRequired()
                         .HasColumnType("int");
 
                     b.HasKey("CategoryId");
@@ -111,10 +112,10 @@ namespace InventoryXpert.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("OrderId"), 1L, 1);
 
-                    b.Property<DateTime>("ArrivalDate")
+                    b.Property<DateTime?>("ArrivalDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime>("PlacedDate")
+                    b.Property<DateTime?>("PlacedDate")
                         .HasColumnType("datetime2");
 
                     b.Property<bool>("Shipped")

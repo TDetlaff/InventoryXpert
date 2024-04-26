@@ -7,9 +7,9 @@ namespace InventoryXpert.Models
     {
         [Key]
         public int OrderId { get; set; }
-        public DateTime ArrivalDate { get; set;}
         public bool Shipped { get; set; }
-        public DateTime PlacedDate { get; set;}
+        public DateTime? ArrivalDate { get; set;}
+        public DateTime? PlacedDate { get; set;}
 
         // Foreign key property for the related Supplier
         public int SupplierId { get; set; }

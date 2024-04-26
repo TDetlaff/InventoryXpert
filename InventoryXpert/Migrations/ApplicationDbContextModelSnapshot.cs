@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace InventoryXpert.Data.Migrations
+namespace InventoryXpert.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     partial class ApplicationDbContextModelSnapshot : ModelSnapshot
@@ -36,7 +36,8 @@ namespace InventoryXpert.Data.Migrations
                     b.Property<string>("Group")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("SupplierId")
+                    b.Property<int?>("SupplierId")
+                        .IsRequired()
                         .HasColumnType("int");
 
                     b.HasKey("CategoryId");
@@ -109,10 +110,10 @@ namespace InventoryXpert.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("OrderId"), 1L, 1);
 
-                    b.Property<DateTime>("ArrivalDate")
+                    b.Property<DateTime?>("ArrivalDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime>("PlacedDate")
+                    b.Property<DateTime?>("PlacedDate")
                         .HasColumnType("datetime2");
 
                     b.Property<bool>("Shipped")
@@ -403,7 +404,7 @@ namespace InventoryXpert.Data.Migrations
                     b.HasOne("InventoryXpert.Models.Supplier", "Supplier")
                         .WithMany()
                         .HasForeignKey("SupplierId")
-                        .OnDelete(DeleteBehavior.SetNull)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Supplier");
@@ -414,7 +415,7 @@ namespace InventoryXpert.Data.Migrations
                     b.HasOne("InventoryXpert.Models.Category", "Category")
                         .WithMany("Items")
                         .HasForeignKey("CategoryId")
-                        .OnDelete(DeleteBehavior.Cascade) //TODO: Maybe set null idk lmao?
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Category");

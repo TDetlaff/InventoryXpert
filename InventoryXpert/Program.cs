@@ -42,3 +42,17 @@ app.MapControllerRoute(
 app.MapRazorPages();
 
 app.Run();
+
+//using InventoryXpert.Data;
+//using Microsoft.EntityFrameworkCore;
+
+//var builder = WebApplication.CreateBuilder(args);
+//var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+//var optionsBuilder = new DbContextOptionsBuilder<ApplicationDbContext>();
+//optionsBuilder.UseSqlServer(connectionString);
+
+//using (var context = new ApplicationDbContext(optionsBuilder.Options))
+//{
+//    context.Database.EnsureDeleted();
+//    context.Database.EnsureCreated();
+//}

@@ -12,7 +12,7 @@ namespace InventoryXpert.Models
         public string? Group { get; set; }
 
        // Foreign key property for the related Supplier
-        public int SupplierId { get; set; }
+        public int? SupplierId { get; set; }
 
         public Category() { }
 
