@@ -10,6 +10,11 @@
 <p>
     <a asp-action="Create">Create New</a>
 </p>
+
+<br />
+<input type="text" id="searchInput" class="form-control" placeholder="Search...">
+<br />
+
 <table class="table">
     <thead>
         <tr>
@@ -43,7 +48,7 @@
             <th></th>
         </tr>
     </thead>
-    <tbody>
+    <tbody id="categoryTableBody">
 @foreach (var item in Model) {
         <tr>
             <td>
@@ -82,3 +87,44 @@
 }
     </tbody>
 </table>
+
+<p id="noResultsMessage" class="text-center" style="display: none;">No matching results found.</p>
+
+@section scripts {
+    <script>
+        $('#searchInput').on('input', function () {
+            var searchText = $(this).val().toLowerCase();
+            var $rows = $('#categoryTableBody tr');
+            var $noResultsMessage = $('#noResultsMessage');
+
+            var hasResults = false;
+
+            $rows.each(function () {
+                var supplierName = $(this).find('td:nth-child(1)').text().toLowerCase();
+                var address = $(this).find('td:nth-child(2)').text().toLowerCase();
+                var city = $(this).find('td:nth-child(3)').text().toLowerCase();
+                var region = $(this).find('td:nth-child(4)').text().toLowerCase();
+                var postalCode = $(this).find('td:nth-child(5)').text().toLowerCase();
+                var country = $(this).find('td:nth-child(6)').text().toLowerCase();
+                var phone = $(this).find('td:nth-child(7)').text().toLowerCase();
+                var fax = $(this).find('td:nth-child(8)').text().toLowerCase();
+                var email = $(this).find('td:nth-child(9)').text().toLowerCase();
+
+                if (supplierName.includes(searchText) || address.includes(searchText) || city.includes(searchText) ||
+                    region.includes(searchText) || postalCode.includes(searchText) || country.includes(searchText) ||
+                    phone.includes(searchText) || fax.includes(searchText) || email.includes(searchText)) {
+                    $(this).show();
+                    hasResults = true;
+                } else {
+                    $(this).hide();
+                }
+            });
+
+            if (!hasResults) {
+                $noResultsMessage.show();
+            } else {
+                $noResultsMessage.hide();
+            }
+        });
+    </script>
+}

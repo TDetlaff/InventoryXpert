@@ -10,6 +10,11 @@
 <p>
     <a asp-action="Create">Create New</a>
 </p>
+
+<br />
+<input type="text" id="searchInput" class="form-control" placeholder="Search...">
+<br />
+
 <table class="table">
     <thead>
         <tr>
@@ -28,7 +33,7 @@
             <th></th>
         </tr>
     </thead>
-    <tbody>
+    <tbody id="categoryTableBody">
 @foreach (var item in Model) {
         <tr>
             <td>
@@ -52,3 +57,39 @@
 }
     </tbody>
 </table>
+
+<p id="noResultsMessage" class="text-center" style="display: none;">No matching results found.</p>
+
+@section scripts {
+    <script>
+        $(document).ready(function () {
+            $('#searchInput').on('input', function () {
+                var searchText = $(this).val().toLowerCase();
+                var $rows = $('#categoryTableBody tr');
+                var $noResultsMessage = $('#noResultsMessage');
+
+                var hasResults = false;
+
+                $rows.each(function () {
+                    var shipped = $(this).find('td:nth-child(1)').text().toLowerCase();
+                    var arrivalDate = $(this).find('td:nth-child(2)').text().toLowerCase();
+                    var placedDate = $(this).find('td:nth-child(3)').text().toLowerCase();
+                    var supplier = $(this).find('td:nth-child(4)').text().toLowerCase();
+
+                    if (shipped.includes(searchText) || arrivalDate.includes(searchText) || placedDate.includes(searchText) || supplier.includes(searchText)) {
+                        $(this).show();
+                        hasResults = true;
+                    } else {
+                        $(this).hide();
+                    }
+                });
+
+                if (!hasResults) {
+                    $noResultsMessage.show();
+                } else {
+                    $noResultsMessage.hide();
+                }
+            });
+        });
+    </script>
+}

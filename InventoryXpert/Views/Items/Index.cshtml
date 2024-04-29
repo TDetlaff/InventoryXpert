@@ -10,6 +10,11 @@
 <p>
     <a asp-action="Create">Create New</a>
 </p>
+
+<br />
+<input type="text" id="searchInput" class="form-control" placeholder="Search...">
+<br />
+
 <table class="table">
     <thead>
         <tr>
@@ -55,7 +60,7 @@
             <th></th>
         </tr>
     </thead>
-    <tbody>
+    <tbody id ="categoryTableBody">
 @foreach (var item in Model) {
         <tr>
             <td>
@@ -106,3 +111,52 @@
 }
     </tbody>
 </table>
+
+<p id="noResultsMessage" class="text-center" style="display: none;">No matching results found.</p>
+
+@section scripts {
+    <script>
+        $(document).ready(function () {
+            $('#searchInput').on('input', function () {
+                var searchText = $(this).val().toLowerCase();
+                var $rows = $('#categoryTableBody tr');
+                var $noResultsMessage = $('#noResultsMessage');
+
+                var hasResults = false;
+
+                $rows.each(function () {
+                    var description = $(this).find('td:nth-child(1)').text().toLowerCase();
+                    var active = $(this).find('td:nth-child(2)').text().toLowerCase();
+                    var stockedQuantity = $(this).find('td:nth-child(3)').text().toLowerCase();
+                    var availableQuantity = $(this).find('td:nth-child(4)').text().toLowerCase();
+                    var quantityOnOrder = $(this).find('td:nth-child(5)').text().toLowerCase();
+                    var price = $(this).find('td:nth-child(6)').text().toLowerCase();
+                    var location = $(this).find('td:nth-child(7)').text().toLowerCase();
+                    var tagA = $(this).find('td:nth-child(8)').text().toLowerCase();
+                    var tagB = $(this).find('td:nth-child(9)').text().toLowerCase();
+                    var tagC = $(this).find('td:nth-child(10)').text().toLowerCase();
+                    var tagD = $(this).find('td:nth-child(11)').text().toLowerCase();
+                    var tagE = $(this).find('td:nth-child(12)').text().toLowerCase();
+                    var category = $(this).find('td:nth-child(13)').text().toLowerCase();
+
+                    if (description.includes(searchText) || active.includes(searchText) || stockedQuantity.includes(searchText) ||
+                        availableQuantity.includes(searchText) || quantityOnOrder.includes(searchText) || price.includes(searchText) ||
+                        location.includes(searchText) || tagA.includes(searchText) || tagB.includes(searchText) ||
+                        tagC.includes(searchText) || tagD.includes(searchText) || tagE.includes(searchText) ||
+                        category.includes(searchText)) {
+                        $(this).show();
+                        hasResults = true;
+                    } else {
+                        $(this).hide();
+                    }
+                });
+
+                if (!hasResults) {
+                    $noResultsMessage.show();
+                } else {
+                    $noResultsMessage.hide();
+                }
+            });
+        });
+    </script>
+}
