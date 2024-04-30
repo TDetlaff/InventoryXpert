@@ -40,7 +40,15 @@
                 @Html.DisplayFor(modelItem => item.Group)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Supplier.SupplierId)
+                @* @Html.DisplayFor(modelItem => item.Supplier.SupplierId) *@
+                @if (item.Supplier != null)
+                {
+                    @Html.DisplayFor(modelItem => item.Supplier.SupplierId)
+                }
+                else
+                {
+                    <span>No Supplier</span>
+                }
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.CategoryId">Edit</a> |

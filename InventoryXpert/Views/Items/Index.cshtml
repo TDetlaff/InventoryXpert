@@ -100,7 +100,15 @@
                 @Html.DisplayFor(modelItem => item.TagE)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Category.CategoryId)
+                @* @Html.DisplayFor(modelItem => item.Category.CategoryId) *@
+                @if (item.Category != null)
+                {
+                    @Html.DisplayFor(modelItem => item.Category.CategoryId)
+                }
+                else
+                {
+                    <span>No Category</span>
+                }
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.ItemId">Edit</a> |
