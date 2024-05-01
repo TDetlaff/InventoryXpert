@@ -21,6 +21,7 @@ using Microsoft.Extensions.Logging;
 
 namespace InventoryXpert.Areas.Identity.Pages.Account
 {
+    [AllowAnonymous]
     public class RegisterModel : PageModel
     {
         private readonly SignInManager<IdentityUser> _signInManager;
