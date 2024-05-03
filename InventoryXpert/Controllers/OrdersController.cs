@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace InventoryXpert.Controllers
 {
-    [Authorize]
+    [Authorize(Roles = "Admin, User")]
     public class OrdersController : Controller
     {
         private readonly ApplicationDbContext _context;

@@ -5,6 +5,7 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Text.Encodings.Web;
@@ -30,12 +31,14 @@ namespace InventoryXpert.Areas.Identity.Pages.Account
         private readonly IUserEmailStore<IdentityUser> _emailStore;
         private readonly ILogger<RegisterModel> _logger;
         private readonly IEmailSender _emailSender;
+        private readonly RoleManager<IdentityRole> _roleManager;
 
         public RegisterModel(
             UserManager<IdentityUser> userManager,
             IUserStore<IdentityUser> userStore,
             SignInManager<IdentityUser> signInManager,
             ILogger<RegisterModel> logger,
+            RoleManager<IdentityRole> roleManager,
             IEmailSender emailSender)
         {
             _userManager = userManager;
@@ -43,6 +46,7 @@ namespace InventoryXpert.Areas.Identity.Pages.Account
             _emailStore = GetEmailStore();
             _signInManager = signInManager;
             _logger = logger;
+            _roleManager = roleManager; // Injected roleManager
             _emailSender = emailSender;
         }
 
@@ -134,6 +138,17 @@ namespace InventoryXpert.Areas.Identity.Pages.Account
 
                     await _emailSender.SendEmailAsync(Input.Email, "Confirm your email",
                         $"Please confirm your account by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
+
+                    if (_roleManager != null)
+                    {
+                        // Check if the "User" role exists
+                        var userRole = await _roleManager.FindByNameAsync("User");
+                        if (userRole != null)
+                        {
+                            // Assign the "User" role to the newly registered user
+                            await _userManager.AddToRoleAsync(user, userRole.Name);
+                        }
+                    }
 
                     if (_userManager.Options.SignIn.RequireConfirmedAccount)
                     {

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+zjlatxJJkR+4bi0T49grwnZNFGqKpNMPOERb6SdnhQ=",
+  "Hash": "1fU2+UMP4n6F8UglO9A6v6wFtKppAYX34hIuhDS9oqU=",
   "Source": "InventoryXpert",
   "BasePath": "_content/InventoryXpert",
   "Mode": "Default",
@@ -129,6 +129,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\wwwroot\\images\\inventory-management.jpg",
+      "SourceId": "InventoryXpert",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\wwwroot\\",
+      "BasePath": "_content/InventoryXpert",
+      "RelativePath": "images/inventory-management.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\inventory-management.jpg"
     },
     {
       "Identity": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\wwwroot\\images\\notification-bell.png",

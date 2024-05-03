@@ -3,84 +3,211 @@
   "WorkspaceRootPath": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\roleinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:roleinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\controllers\\supplierscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:controllers\\supplierscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\controllers\\orderrecordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:controllers\\orderrecordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\controllers\\orderrecordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:controllers\\orderrecordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\ApplicationDbContextModelSnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\refreshdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:refreshdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\areas\\identity\\pages\\account\\manage\\showrecoverycodes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\showrecoverycodes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\areas\\identity\\pages\\account\\manage\\twofactorauthentication.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\twofactorauthentication.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\areas\\identity\\pages\\account\\_statusmessage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:areas\\identity\\pages\\account\\_statusmessage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\areas\\identity\\pages\\account\\externallogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:areas\\identity\\pages\\account\\externallogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\areas\\identity\\pages\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:areas\\identity\\pages\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\areas\\identity\\pages\\account\\confirmemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:areas\\identity\\pages\\account\\confirmemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\areas\\identity\\pages\\account\\confirmemailchange.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:areas\\identity\\pages\\account\\confirmemailchange.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\areas\\identity\\pages\\account\\manage\\deletepersonaldata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\deletepersonaldata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\areas\\identity\\pages\\account\\manage\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\areas\\identity\\pages\\account\\manage\\generaterecoverycodes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\generaterecoverycodes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\areas\\identity\\pages\\account\\manage\\personaldata.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\personaldata.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\areas\\identity\\pages\\account\\manage\\personaldata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\personaldata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Data\\Migrations\\20240424230905_4 24 Modify Data Models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20240424230905_4 24 Modify Data Models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\views\\items\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:views\\items\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\views\\items\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:views\\items\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\views\\orders\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:views\\orders\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\migrations\\20240426001720_4 25 hard reset 5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:migrations\\20240426001720_4 25 hard reset 5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\inventoryxpert.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:inventoryxpert.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\models\\orderrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:models\\orderrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\areas\\identity\\pages\\account\\lockout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:areas\\identity\\pages\\account\\lockout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CVTC\\Capstone\\IMS\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\ApplicationDbContextModelSnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Data\\Migrations\\20240424230905_4 24 Modify Data Models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20240424230905_4 24 Modify Data Models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -107,32 +234,12 @@
       "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:views\\orderrecords\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\views\\orders\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:views\\orders\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\views\\orders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:views\\orders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -163,14 +270,6 @@
       "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:views\\items\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\views\\items\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:views\\items\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -183,10 +282,6 @@
       "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:views\\items\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\wwwroot\\css\\accountviewsstyles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:wwwroot\\css\\accountviewsstyles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -197,10 +292,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\areas\\identity\\pages\\account\\manage\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -217,18 +308,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\areas\\identity\\pages\\account\\resetpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:areas\\identity\\pages\\account\\resetpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\areas\\identity\\pages\\account\\_statusmessage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|solutionrelative:areas\\identity\\pages\\account\\_statusmessage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F380F43-D39B-47D4-BC69-AD3E3DEB5EBF}|InventoryXpert.csproj|c:\\cvtc\\capstone\\ims\\inventoryxpert\\areas\\identity\\pages\\account\\manage\\_managenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -282,7 +361,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -290,20 +369,150 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
+              "Title": "SuppliersController.cs",
+              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Controllers\\SuppliersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SuppliersController.cs",
+              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Controllers\\SuppliersController.cs",
+              "RelativeToolTip": "Controllers\\SuppliersController.cs",
+              "ViewState": "AQIAAI8AAAAAAAAAAAAAwA0AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T21:17:16.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAADUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T23:54:59.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RoleInitializer.cs",
+              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\RoleInitializer.cs",
+              "RelativeDocumentMoniker": "RoleInitializer.cs",
+              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\RoleInitializer.cs",
+              "RelativeToolTip": "RoleInitializer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T22:55:55.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-16T06:23:22.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T21:17:04.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs*",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAUAAAA",
+              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAAHkAAAAAAAAAAAAswJEAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-01T08:58:02.975Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T21:16:57.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "OrderRecordsController.cs",
+              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Controllers\\OrderRecordsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderRecordsController.cs",
+              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Controllers\\OrderRecordsController.cs",
+              "RelativeToolTip": "Controllers\\OrderRecordsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T21:17:13.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ItemsController.cs",
+              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Controllers\\ItemsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ItemsController.cs",
+              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Controllers\\ItemsController.cs",
+              "RelativeToolTip": "Controllers\\ItemsController.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAmwA0AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T21:17:08.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Controllers\\OrdersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T21:17:15.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T08:57:36.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
@@ -316,128 +525,474 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Controllers\\HomeController.cs*",
-              "RelativeToolTip": "Controllers\\HomeController.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAUAAAA",
+              "DocumentIndex": 12,
+              "Title": "RefreshDatabase.cs",
+              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\RefreshDatabase.cs",
+              "RelativeDocumentMoniker": "RefreshDatabase.cs",
+              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\RefreshDatabase.cs",
+              "RelativeToolTip": "RefreshDatabase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T21:17:04.816Z",
+              "WhenOpened": "2024-04-24T23:50:54.115Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Controllers\\CategoriesController.cs*",
-              "RelativeToolTip": "Controllers\\CategoriesController.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T21:16:57.926Z",
+              "DocumentIndex": 15,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T01:07:06.316Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ItemsController.cs",
-              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Controllers\\ItemsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ItemsController.cs",
-              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Controllers\\ItemsController.cs*",
-              "RelativeToolTip": "Controllers\\ItemsController.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T21:17:08.67Z",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACsAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-10T23:03:05.888Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "OrderRecordsController.cs",
-              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Controllers\\OrderRecordsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\OrderRecordsController.cs",
-              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Controllers\\OrderRecordsController.cs*",
-              "RelativeToolTip": "Controllers\\OrderRecordsController.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T21:17:13.257Z",
+              "DocumentIndex": 16,
+              "Title": "ShowRecoveryCodes.cshtml",
+              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\Manage\\ShowRecoveryCodes.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\ShowRecoveryCodes.cshtml",
+              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\Manage\\ShowRecoveryCodes.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\ShowRecoveryCodes.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T01:06:02.33Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OrdersController.cs",
-              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Controllers\\OrdersController.cs",
-              "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
-              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Controllers\\OrdersController.cs*",
-              "RelativeToolTip": "Controllers\\OrdersController.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T21:17:15.088Z",
+              "DocumentIndex": 17,
+              "Title": "TwoFactorAuthentication.cshtml",
+              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml",
+              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T01:05:59.816Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SuppliersController.cs",
-              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Controllers\\SuppliersController.cs",
-              "RelativeDocumentMoniker": "Controllers\\SuppliersController.cs",
-              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Controllers\\SuppliersController.cs*",
-              "RelativeToolTip": "Controllers\\SuppliersController.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T21:17:16.648Z",
+              "DocumentIndex": 20,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T01:05:51.235Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T23:54:59.449Z",
+              "DocumentIndex": 19,
+              "Title": "ExternalLogin.cshtml",
+              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml",
+              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T01:05:45.953Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Login.cshtml.cs",
-              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs*",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T08:57:36.248Z",
+              "DocumentIndex": 18,
+              "Title": "_StatusMessage.cshtml",
+              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\_StatusMessage.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\_StatusMessage.cshtml",
+              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\_StatusMessage.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\_StatusMessage.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-16T05:56:29.151Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-02T01:07:49.834Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 22,
+              "Title": "ConfirmEmail.cshtml",
+              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T01:05:48.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ConfirmEmailChange.cshtml",
+              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml",
+              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T01:05:47.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-16T05:56:31.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
+              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T01:05:36.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "GenerateRecoveryCodes.cshtml",
+              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\Manage\\GenerateRecoveryCodes.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\GenerateRecoveryCodes.cshtml",
+              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\Manage\\GenerateRecoveryCodes.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\GenerateRecoveryCodes.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T01:05:29.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DeletePersonalData.cshtml",
+              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml",
+              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T01:04:58.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PersonalData.cshtml.cs",
+              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml.cs",
+              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T01:05:06.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PersonalData.cshtml",
+              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
+              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T01:04:52.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Views\\Items\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Items\\Create.cshtml",
+              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Views\\Items\\Create.cshtml",
+              "RelativeToolTip": "Views\\Items\\Create.cshtml",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-22T23:37:02.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T22:28:38.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Views\\Orders\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Orders\\Details.cshtml",
+              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Views\\Orders\\Details.cshtml",
+              "RelativeToolTip": "Views\\Orders\\Details.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACMAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-24T00:09:33.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Views\\Items\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Items\\Details.cshtml",
+              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Views\\Items\\Details.cshtml",
+              "RelativeToolTip": "Views\\Items\\Details.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAFkAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T01:01:42.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Views\\Orders\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Orders\\Create.cshtml",
+              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Views\\Orders\\Create.cshtml",
+              "RelativeToolTip": "Views\\Orders\\Create.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-24T05:41:54.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Views\\Orders\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Orders\\Delete.cshtml",
+              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Views\\Orders\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Orders\\Delete.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACQAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-24T00:09:25.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
               "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-16T05:36:40.559Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 38,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "Models\\Item.cs",
+              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Models\\Item.cs",
+              "RelativeToolTip": "Models\\Item.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwBEAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T22:50:25.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-22T22:09:16.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20240426001720_4 25 Hard Reset 5.cs",
+              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Migrations\\20240426001720_4 25 Hard Reset 5.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240426001720_4 25 Hard Reset 5.cs",
+              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Migrations\\20240426001720_4 25 Hard Reset 5.cs",
+              "RelativeToolTip": "Migrations\\20240426001720_4 25 Hard Reset 5.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T00:36:17.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAHYAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T00:27:30.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "InventoryXpert",
+              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\InventoryXpert.csproj",
+              "RelativeDocumentMoniker": "InventoryXpert.csproj",
+              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\InventoryXpert.csproj",
+              "RelativeToolTip": "InventoryXpert.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-02T00:25:43.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "OrderRecord.cs",
+              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Models\\OrderRecord.cs",
+              "RelativeDocumentMoniker": "Models\\OrderRecord.cs",
+              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Models\\OrderRecord.cs",
+              "RelativeToolTip": "Models\\OrderRecord.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T22:26:20.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAuwAgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T22:50:12.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T22:48:54.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-16T05:41:45.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Lockout.cshtml",
+              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\Lockout.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Lockout.cshtml",
+              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\Lockout.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Lockout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-01T21:23:49.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\.gitignore",
+              "RelativeDocumentMoniker": "..\\.gitignore",
+              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\.gitignore",
+              "RelativeToolTip": "..\\.gitignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-05-01T09:00:56.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-16T05:56:32.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
               "Title": "ApplicationDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
@@ -448,31 +1003,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 82,
               "Title": "20240424231731_4 24 Modify Data Models.cs",
               "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Data\\Migrations\\20240424231731_4 24 Modify Data Models.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20240424231731_4 24 Modify Data Models.cs",
               "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Data\\Migrations\\20240424231731_4 24 Modify Data Models.cs",
               "RelativeToolTip": "Data\\Migrations\\20240424231731_4 24 Modify Data Models.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-24T23:17:31.613Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 83,
               "Title": "20240424014215_UpdateDataModels.cs",
               "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Data\\Migrations\\20240424014215_UpdateDataModels.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20240424014215_UpdateDataModels.cs",
               "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Data\\Migrations\\20240424014215_UpdateDataModels.cs",
               "RelativeToolTip": "Data\\Migrations\\20240424014215_UpdateDataModels.cs",
-              "ViewState": "AQIAAGoAAAAAAAAAAAAgwGEAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-24T01:42:15.885Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 48,
               "Title": "ScaffoldingReadMe.txt",
               "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\ScaffoldingReadMe.txt",
               "RelativeDocumentMoniker": "ScaffoldingReadMe.txt",
@@ -485,43 +1038,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "RefreshDatabase.cs",
-              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\RefreshDatabase.cs",
-              "RelativeDocumentMoniker": "RefreshDatabase.cs",
-              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\RefreshDatabase.cs",
-              "RelativeToolTip": "RefreshDatabase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T23:50:54.115Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 84,
               "Title": "20240424045528_UpdateOrderRecords.cs",
               "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Data\\Migrations\\20240424045528_UpdateOrderRecords.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20240424045528_UpdateOrderRecords.cs",
               "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Data\\Migrations\\20240424045528_UpdateOrderRecords.cs",
               "RelativeToolTip": "Data\\Migrations\\20240424045528_UpdateOrderRecords.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-24T04:55:28.927Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 85,
               "Title": "20240422230942_UpdateItemsAndCategoriesTable.cs",
               "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Data\\Migrations\\20240422230942_UpdateItemsAndCategoriesTable.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20240422230942_UpdateItemsAndCategoriesTable.cs",
               "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Data\\Migrations\\20240422230942_UpdateItemsAndCategoriesTable.cs",
               "RelativeToolTip": "Data\\Migrations\\20240422230942_UpdateItemsAndCategoriesTable.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-22T23:09:43.087Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 50,
               "Title": "Supplier.cs",
               "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Models\\Supplier.cs",
               "RelativeDocumentMoniker": "Models\\Supplier.cs",
@@ -529,47 +1068,23 @@
               "RelativeToolTip": "Models\\Supplier.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAqwBMAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T20:18:18.933Z"
+              "WhenOpened": "2024-04-23T20:18:18.933Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 51,
               "Title": "20240424230905_4 24 Modify Data Models.cs",
               "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Data\\Migrations\\20240424230905_4 24 Modify Data Models.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20240424230905_4 24 Modify Data Models.cs",
               "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Data\\Migrations\\20240424230905_4 24 Modify Data Models.cs",
               "RelativeToolTip": "Data\\Migrations\\20240424230905_4 24 Modify Data Models.cs",
-              "ViewState": "AQIAAH8AAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-24T23:09:06.206Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Item.cs",
-              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Models\\Item.cs",
-              "RelativeDocumentMoniker": "Models\\Item.cs",
-              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Models\\Item.cs",
-              "RelativeToolTip": "Models\\Item.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBEAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T22:50:25.004Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "OrderRecord.cs",
-              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Models\\OrderRecord.cs",
-              "RelativeDocumentMoniker": "Models\\OrderRecord.cs",
-              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Models\\OrderRecord.cs",
-              "RelativeToolTip": "Models\\OrderRecord.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T22:26:20.526Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 52,
               "Title": "bootstrap.min.css",
               "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
               "RelativeDocumentMoniker": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
@@ -577,11 +1092,12 @@
               "RelativeToolTip": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAD+XAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-04-16T07:04:03.413Z"
+              "WhenOpened": "2024-04-16T07:04:03.413Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 53,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Views\\OrderRecords\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\OrderRecords\\Index.cshtml",
@@ -589,11 +1105,12 @@
               "RelativeToolTip": "Views\\OrderRecords\\Index.cshtml",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-24T23:01:46.888Z"
+              "WhenOpened": "2024-04-24T23:01:46.888Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 54,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Views\\OrderRecords\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\OrderRecords\\Edit.cshtml",
@@ -601,11 +1118,12 @@
               "RelativeToolTip": "Views\\OrderRecords\\Edit.cshtml",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-24T23:00:03.739Z"
+              "WhenOpened": "2024-04-24T23:00:03.739Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 56,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Views\\OrderRecords\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\OrderRecords\\Create.cshtml",
@@ -613,35 +1131,12 @@
               "RelativeToolTip": "Views\\OrderRecords\\Create.cshtml",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-24T04:57:47.297Z"
+              "WhenOpened": "2024-04-24T04:57:47.297Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Models\\Order.cs",
-              "RelativeDocumentMoniker": "Models\\Order.cs",
-              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Models\\Order.cs",
-              "RelativeToolTip": "Models\\Order.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAuwAgAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T22:50:12.009Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "Models\\Category.cs",
-              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Models\\Category.cs",
-              "RelativeToolTip": "Models\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T22:28:38.04Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 57,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Views\\OrderRecords\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\OrderRecords\\Delete.cshtml",
@@ -649,59 +1144,12 @@
               "RelativeToolTip": "Views\\OrderRecords\\Delete.cshtml",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-24T04:57:53.907Z"
+              "WhenOpened": "2024-04-24T04:57:53.907Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAAC0AAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-10T23:03:05.888Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Views\\Orders\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Orders\\Create.cshtml",
-              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Views\\Orders\\Create.cshtml",
-              "RelativeToolTip": "Views\\Orders\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-24T05:41:54.06Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Views\\Orders\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Orders\\Delete.cshtml",
-              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Views\\Orders\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Orders\\Delete.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACQAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-24T00:09:25.755Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Views\\Orders\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Orders\\Details.cshtml",
-              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Views\\Orders\\Details.cshtml",
-              "RelativeToolTip": "Views\\Orders\\Details.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACUAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-24T00:09:33.831Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 58,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Views\\Orders\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Orders\\Edit.cshtml",
@@ -709,11 +1157,12 @@
               "RelativeToolTip": "Views\\Orders\\Edit.cshtml",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAACAAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-24T00:09:40.372Z"
+              "WhenOpened": "2024-04-24T00:09:40.372Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 59,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Views\\Orders\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Orders\\Index.cshtml",
@@ -721,23 +1170,12 @@
               "RelativeToolTip": "Views\\Orders\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAmwBsAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-24T00:09:48.91Z"
+              "WhenOpened": "2024-04-24T00:09:48.91Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "Models\\ErrorViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T22:48:54.806Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 55,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Views\\OrderRecords\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\OrderRecords\\Details.cshtml",
@@ -745,23 +1183,23 @@
               "RelativeToolTip": "Views\\OrderRecords\\Details.cshtml",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-24T06:31:52.133Z"
+              "WhenOpened": "2024-04-24T06:31:52.133Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 86,
               "Title": "20240417222258_Current Tables 4 17.cs",
               "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Data\\Migrations\\20240417222258_Current Tables 4 17.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20240417222258_Current Tables 4 17.cs",
               "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Data\\Migrations\\20240417222258_Current Tables 4 17.cs",
               "RelativeToolTip": "Data\\Migrations\\20240417222258_Current Tables 4 17.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-24T00:15:48.743Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 60,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Views\\Categories\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Categories\\Create.cshtml",
@@ -769,11 +1207,12 @@
               "RelativeToolTip": "Views\\Categories\\Create.cshtml",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAACEAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-23T21:06:33.403Z"
+              "WhenOpened": "2024-04-23T21:06:33.403Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 61,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Views\\Categories\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Categories\\Edit.cshtml",
@@ -781,11 +1220,12 @@
               "RelativeToolTip": "Views\\Categories\\Edit.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-23T21:07:14.604Z"
+              "WhenOpened": "2024-04-23T21:07:14.604Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 62,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Views\\Categories\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Categories\\Details.cshtml",
@@ -793,59 +1233,56 @@
               "RelativeToolTip": "Views\\Categories\\Details.cshtml",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAACUAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-23T21:07:05.195Z"
+              "WhenOpened": "2024-04-23T21:07:05.195Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 63,
               "Title": "20240424014020_UpdateDataModels.cs",
               "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Data\\Migrations\\20240424014020_UpdateDataModels.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20240424014020_UpdateDataModels.cs",
               "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Data\\Migrations\\20240424014020_UpdateDataModels.cs",
               "RelativeToolTip": "Data\\Migrations\\20240424014020_UpdateDataModels.cs",
-              "ViewState": "AQIAALcAAAAAAAAAAAAowAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-24T01:40:20.505Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 64,
               "Title": "20240424013902_UpdateDataModels.cs",
               "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Data\\Migrations\\20240424013902_UpdateDataModels.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20240424013902_UpdateDataModels.cs",
               "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Data\\Migrations\\20240424013902_UpdateDataModels.cs",
               "RelativeToolTip": "Data\\Migrations\\20240424013902_UpdateDataModels.cs",
-              "ViewState": "AQIAAGoAAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-24T01:39:02.765Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 65,
               "Title": "20240424013608_RemoveFKFromCategory.cs",
               "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Data\\Migrations\\20240424013608_RemoveFKFromCategory.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20240424013608_RemoveFKFromCategory.cs",
               "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Data\\Migrations\\20240424013608_RemoveFKFromCategory.cs",
               "RelativeToolTip": "Data\\Migrations\\20240424013608_RemoveFKFromCategory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-24T01:36:08.888Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 87,
               "Title": "00000000000000_CreateIdentitySchema.cs",
               "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
               "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
               "RelativeToolTip": "Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
-              "ViewState": "AQIAAE8AAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-22T22:55:00.431Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 66,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Views\\Items\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Items\\Delete.cshtml",
@@ -853,23 +1290,12 @@
               "RelativeToolTip": "Views\\Items\\Delete.cshtml",
               "ViewState": "AQIAAFEAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-23T21:07:36.972Z"
+              "WhenOpened": "2024-04-23T21:07:36.972Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAAcAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-16T06:23:22.4Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 67,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Views\\Categories\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Categories\\Index.cshtml",
@@ -877,23 +1303,12 @@
               "RelativeToolTip": "Views\\Categories\\Index.cshtml",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAACwAAABkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-23T21:07:17.91Z"
+              "WhenOpened": "2024-04-23T21:07:17.91Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Views\\Items\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Items\\Create.cshtml",
-              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Views\\Items\\Create.cshtml",
-              "RelativeToolTip": "Views\\Items\\Create.cshtml",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-22T23:37:02.459Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 68,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Views\\Categories\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Categories\\Delete.cshtml",
@@ -901,11 +1316,12 @@
               "RelativeToolTip": "Views\\Categories\\Delete.cshtml",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAACgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-23T21:06:40.263Z"
+              "WhenOpened": "2024-04-23T21:06:40.263Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 69,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Views\\Items\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Items\\Edit.cshtml",
@@ -913,23 +1329,12 @@
               "RelativeToolTip": "Views\\Items\\Edit.cshtml",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-22T23:33:17.702Z"
+              "WhenOpened": "2024-04-22T23:33:17.702Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-22T22:09:16.753Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 70,
               "Title": "accountViewsStyles.css",
               "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\wwwroot\\css\\accountViewsStyles.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\accountViewsStyles.css",
@@ -937,11 +1342,12 @@
               "RelativeToolTip": "wwwroot\\css\\accountViewsStyles.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-04-22T22:38:13.542Z"
+              "WhenOpened": "2024-04-22T22:38:13.542Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 71,
               "Title": "viewsBtnTable.css",
               "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\wwwroot\\css\\viewsBtnTable.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\viewsBtnTable.css",
@@ -949,11 +1355,12 @@
               "RelativeToolTip": "wwwroot\\css\\viewsBtnTable.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-04-22T22:38:10.706Z"
+              "WhenOpened": "2024-04-22T22:38:10.706Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 72,
               "Title": "site.css",
               "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
@@ -961,11 +1368,12 @@
               "RelativeToolTip": "wwwroot\\css\\site.css",
               "ViewState": "AQIAADAAAAAAAAAAAIBJwEoAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-04-16T06:06:26.754Z"
+              "WhenOpened": "2024-04-16T06:06:26.754Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 73,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
@@ -973,23 +1381,12 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-16T05:56:23.986Z"
+              "WhenOpened": "2024-04-16T05:56:23.986Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-16T05:41:45.432Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 74,
               "Title": "ResetPassword.cshtml",
               "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
@@ -997,11 +1394,12 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-16T05:55:59.226Z"
+              "WhenOpened": "2024-04-16T05:55:59.226Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 80,
               "Title": "orderStyleSheet.css",
               "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\wwwroot\\css\\orderStyleSheet.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\orderStyleSheet.css",
@@ -1012,7 +1410,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 75,
               "Title": "RegisterConfirmation.cshtml",
               "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
@@ -1020,11 +1418,12 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-16T05:55:53.809Z"
+              "WhenOpened": "2024-04-16T05:55:53.809Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 76,
               "Title": "ResetPasswordConfirmation.cshtml",
               "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\ResetPasswordConfirmation.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ResetPasswordConfirmation.cshtml",
@@ -1032,47 +1431,12 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ResetPasswordConfirmation.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-16T05:56:46.334Z"
+              "WhenOpened": "2024-04-16T05:56:46.334Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAIBJwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-16T05:56:32.765Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
-              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-16T05:56:31.621Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "_StatusMessage.cshtml",
-              "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\_StatusMessage.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\_StatusMessage.cshtml",
-              "ToolTip": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\_StatusMessage.cshtml",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\_StatusMessage.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-16T05:56:29.151Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 77,
               "Title": "_ManageNav.cshtml",
               "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
@@ -1085,7 +1449,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 78,
               "Title": "_StatusMessage.cshtml",
               "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\Manage\\_StatusMessage.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\_StatusMessage.cshtml",
@@ -1093,11 +1457,12 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\_StatusMessage.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-16T05:56:19.982Z"
+              "WhenOpened": "2024-04-16T05:56:19.982Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 79,
               "Title": "SetPassword.cshtml",
               "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Areas\\Identity\\Pages\\Account\\Manage\\SetPassword.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\SetPassword.cshtml",
@@ -1105,11 +1470,12 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\SetPassword.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-16T05:56:09.196Z"
+              "WhenOpened": "2024-04-16T05:56:09.196Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 81,
               "Title": "20240410231101_initialsetup.cs",
               "DocumentMoniker": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\Data\\Migrations\\20240410231101_initialsetup.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20240410231101_initialsetup.cs",

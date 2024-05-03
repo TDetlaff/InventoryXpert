@@ -1,3 +1,4 @@
+using InventoryXpert;
 using InventoryXpert.Data;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
@@ -12,7 +13,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false)
     .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
 
@@ -44,6 +45,13 @@ builder.Services.ConfigureApplicationCookie(options =>
 
 var app = builder.Build();
 
+// Initialize roles
+using (var scope = app.Services.CreateScope())
+{
+    var serviceProvider = scope.ServiceProvider;
+    await RoleInitializer.InitializeRoles(serviceProvider);
+}
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
@@ -69,18 +77,25 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 app.MapRazorPages();
 
+
+// Initialize Admin role
+using (var scope = app.Services.CreateScope())
+{
+    var UserManager = scope.ServiceProvider.GetRequiredService<UserManager<IdentityUser>>();
+
+    string email = "admin@admin.com";
+    string password = "Test1234,";
+
+    if(await UserManager.FindByEmailAsync(email) == null)
+    {
+        var user = new IdentityUser {};
+        user.UserName = email;
+        user.Email = email;
+
+        await UserManager.CreateAsync(user, password);
+
+        await UserManager.AddToRoleAsync(user, "Admin");
+    }
+}
+
 app.Run();
-
-//using InventoryXpert.Data;
-//using Microsoft.EntityFrameworkCore;
-
-//var builder = WebApplication.CreateBuilder(args);
-//var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-//var optionsBuilder = new DbContextOptionsBuilder<ApplicationDbContext>();
-//optionsBuilder.UseSqlServer(connectionString);
-
-//using (var context = new ApplicationDbContext(optionsBuilder.Options))
-//{
-//    context.Database.EnsureDeleted();
-//    context.Database.EnsureCreated();
-//}
