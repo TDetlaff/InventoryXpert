@@ -5,27 +5,28 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Index</h1>
+<h1>Manage Orders</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+<div class="row">
+    <div class="col-md-6">
+        <a id="homeCreate" class="button btn-create" asp-action="Create">Create New</a>
+    </div>
+    <div class="col-md-6">
+        <input type="text" id="searchInput" class="form-control" placeholder="Search...">
+    </div>
+</div>
 
-<br />
-<input type="text" id="searchInput" class="form-control" placeholder="Search...">
-<br />
-
-<table class="table">
-    <thead>
+<table class="table table-striped table-light table-bordered table-hover">
+    <thead class ="table-dark">
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.Shipped)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.ArrivalDate)
+                Arrival Date
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.PlacedDate)
+                Placed Date
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Supplier)
@@ -40,16 +41,15 @@
                 @Html.DisplayFor(modelItem => item.Shipped)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.ArrivalDate)
+                @FormatDate(item.ArrivalDate)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.PlacedDate)
+                @FormatDate(item.PlacedDate)
             </td>
             <td>
-                @* @Html.DisplayFor(modelItem => item.Supplier.SupplierId) *@
                 @if (item.Supplier != null)
                 {
-                    @Html.DisplayFor(modelItem => item.Supplier.SupplierId)
+                    @item.Supplier.SupplierName
                 }
                 else
                 {
@@ -57,9 +57,9 @@
                 }
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.OrderId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.OrderId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.OrderId">Delete</a>
+                <a class="button btn-dataOptions" asp-action="Edit" asp-route-id="@item.OrderId">Edit</a> |
+                <a class="button btn-dataOptions" asp-action="Details" asp-route-id="@item.OrderId">Details</a> |
+                <a class="button btn-dataOptions" asp-action="Delete" asp-route-id="@item.OrderId">Delete</a>
             </td>
         </tr>
 }
@@ -100,4 +100,18 @@
             });
         });
     </script>
+}
+
+@functions {
+    public string FormatDate(DateTime? date)
+    {
+        if (date.HasValue)
+        {
+            return date.Value.ToString("MMMM d, yyyy");
+        }
+        else
+        {
+            return string.Empty;
+        }
+    }
 }

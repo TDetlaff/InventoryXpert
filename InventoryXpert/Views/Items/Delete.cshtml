@@ -6,95 +6,99 @@
 }
 
 <h1>Delete</h1>
-
-<h3>Are you sure you want to delete this?</h3>
 <div>
-    <h4>Item</h4>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Description)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Description)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Active)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Active)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.StockedQuantity)
+        <dt class="col-sm-2">
+            Stocked Quantity
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.StockedQuantity)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.AvailableQuantity)
+        <dt class="col-sm-2">
+            Available Quantity
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.AvailableQuantity)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.QuantityOnOrder)
+        <dt class="col-sm-2">
+            Quantity On Order
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.QuantityOnOrder)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Price)
         </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Price)
+        <dd class="col-sm-10">
+            @String.Format("{0:C}", Model.Price)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Location)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Location)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.TagA)
+        <dt class="col-sm-2">
+            Tag A
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.TagA)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.TagB)
+        <dt class="col-sm-2">
+            Tag B
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.TagB)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.TagC)
+        <dt class="col-sm-2">
+            Tag C
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.TagC)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.TagD)
+        <dt class="col-sm-2">
+            Tag D
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.TagD)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.TagE)
+        <dt class="col-sm-2">
+            Tag E
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.TagE)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Category)
         </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Category.CategoryId)
+        <dd class="col-sm-10">
+            @if (Model.Category != null)
+            {
+                @Html.DisplayFor(modelItem => Model.Category.CategoryName)
+            }
+            else
+            {
+                <span>No Category</span>
+            }
         </dd>
     </dl>
     
     <form asp-action="Delete">
         <input type="hidden" asp-for="ItemId" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
+        <input type="submit" value="Delete" class="button btn-delete" /> |
+        <a class="button btn-details" asp-action="Index">Back to List</a>
     </form>
 </div>

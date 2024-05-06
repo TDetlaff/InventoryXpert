@@ -50,7 +50,7 @@ namespace InventoryXpert.Controllers
         // GET: Items/Create
         public IActionResult Create()
         {
-            ViewData["CategoryId"] = new SelectList(_context.Category, "CategoryId", "CategoryId");
+            ViewData["CategoryId"] = new SelectList(_context.Category, "CategoryId", "CategoryName");
             return View();
         }
 
@@ -67,7 +67,7 @@ namespace InventoryXpert.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CategoryId"] = new SelectList(_context.Category, "CategoryId", "CategoryId", item.CategoryId);
+            ViewData["CategoryId"] = new SelectList(_context.Category, "CategoryId", "CategoryName", item.CategoryId);
             return View(item);
         }
 
@@ -84,7 +84,7 @@ namespace InventoryXpert.Controllers
             {
                 return NotFound();
             }
-            ViewData["CategoryId"] = new SelectList(_context.Category, "CategoryId", "CategoryId", item.CategoryId);
+            ViewData["CategoryId"] = new SelectList(_context.Category, "CategoryId", "CategoryName", item.CategoryId);
             return View(item);
         }
 
@@ -120,7 +120,7 @@ namespace InventoryXpert.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CategoryId"] = new SelectList(_context.Category, "CategoryId", "CategoryId", item.CategoryId);
+            ViewData["CategoryId"] = new SelectList(_context.Category, "CategoryId", "CategoryName", item.CategoryId);
             return View(item);
         }
 

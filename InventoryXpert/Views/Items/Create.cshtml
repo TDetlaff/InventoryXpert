@@ -5,9 +5,7 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Create</h1>
-
-<h4>Item</h4>
+<h1>Create new Item</h1>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -18,32 +16,27 @@
                 <input asp-for="Description" class="form-control" />
                 <span asp-validation-for="Description" class="text-danger"></span>
             </div>
-            @* <div class="form-group">
-                <label asp-for="Active" class="control-label"></label>
-                <input asp-for="Active" class="form-control" />
-                <span asp-validation-for="Active" class="text-danger"></span>
-            </div> *@
             <div class="form-group form-check">
                 <label class="form-check-label">
                     <input class="form-check-input" asp-for="Active" /> @Html.DisplayNameFor(model => model.Active)
                 </label>
             </div>
             <div class="form-group">
-                <label asp-for="CategoryId" class="control-label"></label>
+                <label asp-for="CategoryId" class="control-label">Category</label>
                 <select asp-for="CategoryId" class ="form-control" asp-items="ViewBag.CategoryId"></select>
             </div>
             <div class="form-group">
-                <label asp-for="StockedQuantity" class="control-label"></label>
+                <label asp-for="StockedQuantity" class="control-label">Stocked Quantity</label>
                 <input asp-for="StockedQuantity" class="form-control" />
                 <span asp-validation-for="StockedQuantity" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="AvailableQuantity" class="control-label"></label>
+                <label asp-for="AvailableQuantity" class="control-label">Available Quantity</label>
                 <input asp-for="AvailableQuantity" class="form-control" />
                 <span asp-validation-for="AvailableQuantity" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="QuantityOnOrder" class="control-label"></label>
+                <label asp-for="QuantityOnOrder" class="control-label">Quantity On Order</label>
                 <input asp-for="QuantityOnOrder" class="form-control" />
                 <span asp-validation-for="QuantityOnOrder" class="text-danger"></span>
             </div>
@@ -58,39 +51,39 @@
                 <span asp-validation-for="Location" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="TagA" class="control-label"></label>
+                <label asp-for="TagA" class="control-label">Tag A</label>
                 <input asp-for="TagA" class="form-control" />
                 <span asp-validation-for="TagA" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="TagB" class="control-label"></label>
+                <label asp-for="TagB" class="control-label">Tag B</label>
                 <input asp-for="TagB" class="form-control" />
                 <span asp-validation-for="TagB" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="TagC" class="control-label"></label>
+                <label asp-for="TagC" class="control-label">Tag C</label>
                 <input asp-for="TagC" class="form-control" />
                 <span asp-validation-for="TagC" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="TagD" class="control-label"></label>
+                <label asp-for="TagD" class="control-label">Tag D</label>
                 <input asp-for="TagD" class="form-control" />
                 <span asp-validation-for="TagD" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="TagE" class="control-label"></label>
+                <label asp-for="TagE" class="control-label">Tag E</label>
                 <input asp-for="TagE" class="form-control" />
                 <span asp-validation-for="TagE" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Create" class="button btn-details" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a class="button btn-back" asp-action="Index">Back to List</a>
 </div>
 
 @* TAKE OUT THIS GOOD FOR PRODUCTION *@

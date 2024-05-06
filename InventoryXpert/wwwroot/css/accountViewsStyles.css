@@ -1,10 +1,7 @@
-﻿/*.btn {
+﻿.btn-primary {
     background-color: #5cacfa;
-    color: white;
     border: none;
-    display: block;
-    margin-top: 8px
-}*/
+}
 
 .btn-display {
     background-color: #5cacfa;
@@ -54,4 +51,13 @@
 
 .nav-pills .nav-link {
     color: #a5b8cc;
+}
+
+.authSteps {
+    background-color: #5cacfa;
+    text-decoration: none;
+    border-radius: 2px;
+    color: white;
+    padding-left: 2px;
+    padding-right: 2px;
 }

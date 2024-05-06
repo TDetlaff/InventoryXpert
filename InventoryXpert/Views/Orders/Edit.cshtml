@@ -5,9 +5,7 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Edit</h1>
-
-<h4>Order</h4>
+<h1>Edit an Order</h1>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -20,29 +18,29 @@
                 </label>
             </div>
             <div class="form-group">
-                <label asp-for="ArrivalDate" class="control-label"></label>
+                <label asp-for="ArrivalDate" class="control-label">Arrival Date</label>
                 <input asp-for="ArrivalDate" class="form-control" />
                 <span asp-validation-for="ArrivalDate" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="PlacedDate" class="control-label"></label>
+                <label asp-for="PlacedDate" class="control-label">Placed Date</label>
                 <input asp-for="PlacedDate" class="form-control" />
                 <span asp-validation-for="PlacedDate" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="SupplierId" class="control-label"></label>
+                <label asp-for="SupplierId" class="control-label">Supplier</label>
                 <select asp-for="SupplierId" class="form-control" asp-items="ViewBag.SupplierId"></select>
                 <span asp-validation-for="SupplierId" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="submit" value="Save" class="button btn-details" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a class="button btn-back" asp-action="Index">Back to List</a>
 </div>
 
 @section Scripts {
