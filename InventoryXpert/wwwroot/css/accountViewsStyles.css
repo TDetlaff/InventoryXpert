@@ -44,6 +44,9 @@
     color: black;
 }
 
+#login-submit {
+    margin-bottom: 15px;
+}
 
 .nav-pills .nav-link.active {
     background-color: #5cacfa;
