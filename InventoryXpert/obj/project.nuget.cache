@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U/HlzWgYLZvVkYD4rEsbMjd1ZRVjqkQSKApElMyFBZaNv6nWV7+icVJtgvHotiY/Wnb3hmQr5skTPoYkD1mCkQ==",
+  "dgSpecHash": "nqm+ZaZ8//gAOmG3n8i8fp9PJYqydd0spi0kZx4SnxPU9PAcLXoUXYUlT/a0AKC298xverw0stKdQCtSm1F1Pg==",
   "success": true,
-  "projectFilePath": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\InventoryXpert.csproj",
+  "projectFilePath": "C:\\CVTC\\Capstone\\IMS-2\\InventoryXpert\\InventoryXpert.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\taylo\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\taylo\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

@@ -11501,11 +11501,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\InventoryXpert.csproj",
+      "projectUniqueName": "C:\\CVTC\\Capstone\\IMS-2\\InventoryXpert\\InventoryXpert.csproj",
       "projectName": "InventoryXpert",
-      "projectPath": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\InventoryXpert.csproj",
+      "projectPath": "C:\\CVTC\\Capstone\\IMS-2\\InventoryXpert\\InventoryXpert.csproj",
       "packagesPath": "C:\\Users\\taylo\\.nuget\\packages\\",
-      "outputPath": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\obj\\",
+      "outputPath": "C:\\CVTC\\Capstone\\IMS-2\\InventoryXpert\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
