@@ -1,8 +1,26 @@
 ﻿@*@page*@
 @*@model IndexModel*@
+@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<IdentityUser> SigninManager
+@inject UserManager<IdentityUser> UserManager
+
 @{
     Layout = "_Layout";
     ViewData["Title"] = "Home page";
+}
+
+@if (User.IsInRole("Admin"))
+{
+    <div class="alert alert-info" role="alert">
+        Welcome Admin!
+    </div>
+}
+else if (User.IsInRole("User"))
+{
+    <div class="alert alert-info" role="alert">
+        Welcome User!
+    </div>
 }
 
 <section class="hero">
@@ -36,6 +54,7 @@
         </ul>
     </div>
 </section>
+
 
 @* <div class="text-center">
     <h1>Welcome to InventoryXpert</h1>

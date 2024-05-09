@@ -18,9 +18,9 @@ namespace InventoryXpert.Models
 
         // Navigation property to represent the related Supplier
         [ForeignKey("SupplierId")]
-        public Supplier Supplier { get; set; }
+        public Supplier? Supplier { get; set; }
 
         // Navigation property to represent the collection of related Items
-        public ICollection<Item> Items { get; set; }
+        public ICollection<Item>? Items { get; set; }
     }
 }

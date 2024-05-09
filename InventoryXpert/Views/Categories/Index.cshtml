@@ -5,29 +5,33 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Manage your categories</h1>
+<h1>Manage Categories</h1>
 
-<p>
-    <a class="button btn-create" asp-action="Create">Create New</a>
-</p>
+<div class="row">
+    <div class="col-md-6">
+        <a id="homeCreate" class="button btn-create" asp-action="Create">Create New</a>
+    </div>
+    <div class="col-md-6">
+        <input type="text" id="searchInput" class="form-control" placeholder="Search...">
+    </div>
+</div>
+
 <table class="table table-striped table-light table-bordered table-hover">
     <thead class="table-dark">
         <tr>
             <th>
-                @* @Html.DisplayNameFor(model => model.CategoryName) *@
                 Category Name
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Group)
             </th>
             <th>
-                @* @Html.DisplayNameFor(model => model.SupplierId) *@
-                Supplier ID
+                @Html.DisplayNameFor(model => model.Supplier)
             </th>
             <th></th>
         </tr>
     </thead>
-    <tbody>
+    <tbody id="categoryTableBody">
 @foreach (var item in Model) {
         <tr>
             <td>
@@ -37,7 +41,14 @@
                 @Html.DisplayFor(modelItem => item.Group)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.SupplierId)
+                @if (item.Supplier != null)
+                {
+                    @Html.DisplayFor(modelItem => item.Supplier.SupplierName)
+                }
+                else
+                {
+                    <span>No Supplier</span>
+                }
             </td>
             <td>
                 <a class="button btn-dataOptions" asp-action="Edit" asp-route-id="@item.CategoryId">Edit</a> |
@@ -48,3 +59,37 @@
 }
     </tbody>
 </table>
+
+<p id="noResultsMessage" class="text-center" style="display: none;">No matching results found.</p>
+
+@section scripts {
+    <script>
+        $(document).ready(function () {
+            $('#searchInput').on('input', function () {
+                var searchText = $(this).val().toLowerCase();
+                var $rows = $('#categoryTableBody tr');
+                var $noResultsMessage = $('#noResultsMessage');
+
+                var hasResults = false;
+
+                $rows.each(function () {
+                    var categoryName = $(this).find('td:nth-child(1)').text().toLowerCase();
+                    var group = $(this).find('td:nth-child(2)').text().toLowerCase();
+                    var supplier = $(this).find('td:nth-child(3)').text().toLowerCase();
+                    if (categoryName.includes(searchText) || group.includes(searchText) || supplier.includes(searchText)) {
+                        $(this).show();
+                        hasResults = true;
+                    } else {
+                        $(this).hide();
+                    }
+                });
+
+                if (!hasResults) {
+                    $noResultsMessage.show();
+                } else {
+                    $noResultsMessage.hide();
+                }
+            });
+        });
+    </script>
+}

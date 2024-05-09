@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace InventoryXpert.Controllers
 {
-    [Authorize]
+    [Authorize(Roles = "Admin, User")]
     public class OrderRecordsController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -24,9 +24,8 @@ namespace InventoryXpert.Controllers
         // GET: OrderRecords
         public async Task<IActionResult> Index()
         {
-              return _context.OrderRecord != null ? 
-                          View(await _context.OrderRecord.ToListAsync()) :
-                          Problem("Entity set 'ApplicationDbContext.OrderRecord'  is null.");
+            var applicationDbContext = _context.OrderRecord.Include(o => o.Item).Include(o => o.Order);
+            return View(await applicationDbContext.ToListAsync());
         }
 
         // GET: OrderRecords/Details/5
@@ -38,6 +37,8 @@ namespace InventoryXpert.Controllers
             }
 
             var orderRecord = await _context.OrderRecord
+                .Include(o => o.Item)
+                .Include(o => o.Order)
                 .FirstOrDefaultAsync(m => m.OrderRecordId == id);
             if (orderRecord == null)
             {
@@ -50,6 +51,8 @@ namespace InventoryXpert.Controllers
         // GET: OrderRecords/Create
         public IActionResult Create()
         {
+            ViewData["ItemId"] = new SelectList(_context.Item, "ItemId", "ItemId");
+            ViewData["OrderId"] = new SelectList(_context.Order, "OrderId", "OrderId");
             return View();
         }
 
@@ -58,7 +61,7 @@ namespace InventoryXpert.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("OrderRecordId,OrderId,ProductId,Quantity")] OrderRecord orderRecord)
+        public async Task<IActionResult> Create([Bind("OrderRecordId,OrderId,ItemId,Quantity")] OrderRecord orderRecord)
         {
             if (ModelState.IsValid)
             {
@@ -66,6 +69,8 @@ namespace InventoryXpert.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["ItemId"] = new SelectList(_context.Item, "ItemId", "ItemId", orderRecord.ItemId);
+            ViewData["OrderId"] = new SelectList(_context.Order, "OrderId", "OrderId", orderRecord.OrderId);
             return View(orderRecord);
         }
 
@@ -82,6 +87,8 @@ namespace InventoryXpert.Controllers
             {
                 return NotFound();
             }
+            ViewData["ItemId"] = new SelectList(_context.Item, "ItemId", "ItemId", orderRecord.ItemId);
+            ViewData["OrderId"] = new SelectList(_context.Order, "OrderId", "OrderId", orderRecord.OrderId);
             return View(orderRecord);
         }
 
@@ -117,6 +124,8 @@ namespace InventoryXpert.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["ItemId"] = new SelectList(_context.Item, "ItemId", "ItemId", orderRecord.ItemId);
+            ViewData["OrderId"] = new SelectList(_context.Order, "OrderId", "OrderId", orderRecord.OrderId);
             return View(orderRecord);
         }
 
@@ -129,6 +138,8 @@ namespace InventoryXpert.Controllers
             }
 
             var orderRecord = await _context.OrderRecord
+                .Include(o => o.Item)
+                .Include(o => o.Order)
                 .FirstOrDefaultAsync(m => m.OrderRecordId == id);
             if (orderRecord == null)
             {

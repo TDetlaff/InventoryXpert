@@ -5,52 +5,113 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Manage your orders</h1>
+<h1>Manage Orders</h1>
 
-<p>
-    <a class="button btn-create" asp-action="Create">Create New</a>
-</p>
+<div class="row">
+    <div class="col-md-6">
+        <a id="homeCreate" class="button btn-create" asp-action="Create">Create New</a>
+    </div>
+    <div class="col-md-6">
+        <input type="text" id="searchInput" class="form-control" placeholder="Search...">
+    </div>
+</div>
+
 <table class="table table-striped table-light table-bordered table-hover">
-    <thead class="table-dark">
+    <thead class ="table-dark">
         <tr>
-            <th>
-                @* @Html.DisplayNameFor(model => model.ArrivalDate) *@
-                Arrival Date
-            </th>
             <th>
                 @Html.DisplayNameFor(model => model.Shipped)
             </th>
             <th>
-                @* @Html.DisplayNameFor(model => model.PlacedDate) *@
-                Placed On
+                Arrival Date
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.SupplierId)
+                Placed Date
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Supplier)
             </th>
             <th></th>
         </tr>
     </thead>
-    <tbody>
+    <tbody id="categoryTableBody">
 @foreach (var item in Model) {
         <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.ArrivalDate)
-            </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Shipped)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.PlacedDate)
+                @FormatDate(item.ArrivalDate)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.SupplierId)
+                @FormatDate(item.PlacedDate)
             </td>
             <td>
-                    <a class="button btn-dataOptions" asp-action="Edit" asp-route-id="@item.OrderId">Edit</a> |
-                    <a class="button btn-dataOptions" asp-action="Details" asp-route-id="@item.OrderId">Details</a> |
-                    <a class="button btn-dataOptions" asp-action="Delete" asp-route-id="@item.OrderId">Delete</a>
+                @if (item.Supplier != null)
+                {
+                    @item.Supplier.SupplierName
+                }
+                else
+                {
+                    <span>No Supplier</span>
+                }
+            </td>
+            <td>
+                <a class="button btn-dataOptions" asp-action="Edit" asp-route-id="@item.OrderId">Edit</a> |
+                <a class="button btn-dataOptions" asp-action="Details" asp-route-id="@item.OrderId">Details</a> |
+                <a class="button btn-dataOptions" asp-action="Delete" asp-route-id="@item.OrderId">Delete</a>
             </td>
         </tr>
 }
     </tbody>
 </table>
+
+<p id="noResultsMessage" class="text-center" style="display: none;">No matching results found.</p>
+
+@section scripts {
+    <script>
+        $(document).ready(function () {
+            $('#searchInput').on('input', function () {
+                var searchText = $(this).val().toLowerCase();
+                var $rows = $('#categoryTableBody tr');
+                var $noResultsMessage = $('#noResultsMessage');
+
+                var hasResults = false;
+
+                $rows.each(function () {
+                    var shipped = $(this).find('td:nth-child(1)').text().toLowerCase();
+                    var arrivalDate = $(this).find('td:nth-child(2)').text().toLowerCase();
+                    var placedDate = $(this).find('td:nth-child(3)').text().toLowerCase();
+                    var supplier = $(this).find('td:nth-child(4)').text().toLowerCase();
+
+                    if (shipped.includes(searchText) || arrivalDate.includes(searchText) || placedDate.includes(searchText) || supplier.includes(searchText)) {
+                        $(this).show();
+                        hasResults = true;
+                    } else {
+                        $(this).hide();
+                    }
+                });
+
+                if (!hasResults) {
+                    $noResultsMessage.show();
+                } else {
+                    $noResultsMessage.hide();
+                }
+            });
+        });
+    </script>
+}
+
+@functions {
+    public string FormatDate(DateTime? date)
+    {
+        if (date.HasValue)
+        {
+            return date.Value.ToString("MMMM d, yyyy");
+        }
+        else
+        {
+            return string.Empty;
+        }
+    }
+}

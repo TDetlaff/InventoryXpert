@@ -8,7 +8,7 @@ namespace InventoryXpert.Models
         [Key]
         public int ItemId { get; set; }
         public string? Description { get; set; }
-        public bool? Active { get; set; }
+        public bool Active { get; set; }
 
         // Foreign key property for the related Category
         public int? CategoryId { get; set; }
@@ -27,6 +27,6 @@ namespace InventoryXpert.Models
 
         // Navigation property to represent the related Category
         [ForeignKey("CategoryId")]
-        public Category Category { get; set; }
+        public Category? Category { get; set; }
     }
 }

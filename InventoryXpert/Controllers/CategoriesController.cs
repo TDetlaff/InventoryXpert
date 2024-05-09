@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace InventoryXpert.Controllers
 {
-    [Authorize]
+    [Authorize(Roles = "Admin, User")]
     public class CategoriesController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -24,9 +24,8 @@ namespace InventoryXpert.Controllers
         // GET: Categories
         public async Task<IActionResult> Index()
         {
-              return _context.Category != null ? 
-                          View(await _context.Category.ToListAsync()) :
-                          Problem("Entity set 'ApplicationDbContext.Category'  is null.");
+            var applicationDbContext = _context.Category.Include(c => c.Supplier);
+            return View(await applicationDbContext.ToListAsync());
         }
 
         // GET: Categories/Details/5
@@ -38,6 +37,7 @@ namespace InventoryXpert.Controllers
             }
 
             var category = await _context.Category
+                .Include(c => c.Supplier)
                 .FirstOrDefaultAsync(m => m.CategoryId == id);
             if (category == null)
             {
@@ -50,6 +50,7 @@ namespace InventoryXpert.Controllers
         // GET: Categories/Create
         public IActionResult Create()
         {
+            ViewData["SupplierId"] = new SelectList(_context.Supplier, "SupplierId", "SupplierName");
             return View();
         }
 
@@ -66,6 +67,7 @@ namespace InventoryXpert.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["SupplierId"] = new SelectList(_context.Supplier, "SupplierId", "SupplierName", category.SupplierId);
             return View(category);
         }
 
@@ -82,6 +84,7 @@ namespace InventoryXpert.Controllers
             {
                 return NotFound();
             }
+            ViewData["SupplierId"] = new SelectList(_context.Supplier, "SupplierId", "SupplierName", category.SupplierId);
             return View(category);
         }
 
@@ -117,6 +120,7 @@ namespace InventoryXpert.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["SupplierId"] = new SelectList(_context.Supplier, "SupplierId", "SupplierName", category.SupplierId);
             return View(category);
         }
 
@@ -129,6 +133,7 @@ namespace InventoryXpert.Controllers
             }
 
             var category = await _context.Category
+                .Include(c => c.Supplier)
                 .FirstOrDefaultAsync(m => m.CategoryId == id);
             if (category == null)
             {

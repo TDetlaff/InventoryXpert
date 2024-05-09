@@ -10,6 +10,23 @@
     padding: 10px 20px;
 }
 
+.row {
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+#homeCreate {
+    display: inline-block;
+}
+
+#searchInput {
+    width: 25%;
+    float: right;
+    display: inline-block;
+    height: 100%;
+}
+
 .btn-dataOptions {
     padding: 2px 4px;
 }

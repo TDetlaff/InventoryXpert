@@ -6,29 +6,33 @@
 }
 
 <h1>Delete</h1>
-
 <div>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
-            @* @Html.DisplayNameFor(model => model.CategoryName) *@
+        <dt class="col-sm-2">
             Category Name
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.CategoryName)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Group)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Group)
         </dd>
-        <dt class = "col-sm-2">
-            @* @Html.DisplayNameFor(model => model.SupplierId) *@
-            Supplier ID
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Supplier)
         </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.SupplierId)
+        <dd class="col-sm-10">
+            @if (Model.Supplier != null)
+            {
+                @Html.DisplayFor(modelItem => Model.Supplier.SupplierName)
+            }
+            else
+            {
+                <span>No Supplier</span>
+            }
         </dd>
     </dl>
     

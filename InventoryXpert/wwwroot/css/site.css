@@ -140,6 +140,12 @@ body {
     margin-bottom: 0;
 }
 
+#qrcode {
+    width: 160px;
+    height: 160px;
+    margin-top: 15px;
+}
+
 .footer {
     border-top: 1px solid #5c6468;
     background-color: #2c4c71;

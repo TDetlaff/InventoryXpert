@@ -5,8 +5,7 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Edit a category</h1>
-
+<h1>Edit a Category</h1>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -24,8 +23,8 @@
                 <span asp-validation-for="Group" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="SupplierId" class="control-label">Supplier ID</label>
-                <input asp-for="SupplierId" class="form-control" />
+                <label asp-for="SupplierId" class="control-label">Supplier</label>
+                <select asp-for="SupplierId" class="form-control" asp-items="ViewBag.SupplierId"></select>
                 <span asp-validation-for="SupplierId" class="text-danger"></span>
             </div>
             <div class="form-group">

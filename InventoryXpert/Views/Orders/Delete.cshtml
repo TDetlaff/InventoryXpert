@@ -11,30 +11,42 @@
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
-            @* @Html.DisplayNameFor(model => model.ArrivalDate) *@
-            Arrival Date
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.ArrivalDate)
-        </dd>
-        <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Shipped)
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Shipped)
         </dd>
         <dt class = "col-sm-2">
-            @* @Html.DisplayNameFor(model => model.PlacedDate) *@
-            Placed On
+            Arrival Date
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.PlacedDate)
+            @if (Model.ArrivalDate.HasValue)
+            {
+                @Model.ArrivalDate.Value.ToString("MMMM d, yyyy")
+            }
+            else
+            {
+                <span>No Arrival Date</span>
+            }
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.SupplierId)
+            Placed Date
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.SupplierId)
+            @if (Model.PlacedDate.HasValue)
+            {
+                @Model.PlacedDate.Value.ToString("MMMM d, yyyy")
+            }
+            else
+            {
+                <span>No Placed Date</span>
+            }
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Supplier)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Supplier.SupplierName)
         </dd>
     </dl>
     

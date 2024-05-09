@@ -44,7 +44,7 @@ namespace InventoryXpert.Migrations
 
                     b.HasIndex("SupplierId");
 
-                    b.ToTable("Category");
+                    b.ToTable("Category", (string)null);
                 });
 
             modelBuilder.Entity("InventoryXpert.Models.Item", b =>
@@ -99,7 +99,7 @@ namespace InventoryXpert.Migrations
 
                     b.HasIndex("CategoryId");
 
-                    b.ToTable("Item");
+                    b.ToTable("Item", (string)null);
                 });
 
             modelBuilder.Entity("InventoryXpert.Models.Order", b =>
@@ -126,7 +126,7 @@ namespace InventoryXpert.Migrations
 
                     b.HasIndex("SupplierId");
 
-                    b.ToTable("Order");
+                    b.ToTable("Order", (string)null);
                 });
 
             modelBuilder.Entity("InventoryXpert.Models.OrderRecord", b =>
@@ -154,7 +154,7 @@ namespace InventoryXpert.Migrations
 
                     b.HasIndex("OrderId");
 
-                    b.ToTable("OrderRecord");
+                    b.ToTable("OrderRecord", (string)null);
                 });
 
             modelBuilder.Entity("InventoryXpert.Models.Supplier", b =>
@@ -194,7 +194,7 @@ namespace InventoryXpert.Migrations
 
                     b.HasKey("SupplierId");
 
-                    b.ToTable("Supplier");
+                    b.ToTable("Supplier", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
