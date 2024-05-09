@@ -70,6 +70,10 @@ namespace InventoryXpert.Controllers
             item.TagD = Sanitizer.GetSafeHtmlFragment(item.TagD);
             item.TagE = Sanitizer.GetSafeHtmlFragment(item.TagE);
 
+            if (item.Price != null) {
+                item.Price = (float)Math.Round((decimal)item.Price, 2);
+            }
+
             if (ModelState.IsValid)
             {
                 _context.Add(item);
@@ -111,6 +115,10 @@ namespace InventoryXpert.Controllers
             item.TagC = Sanitizer.GetSafeHtmlFragment(item.TagC);
             item.TagD = Sanitizer.GetSafeHtmlFragment(item.TagD);
             item.TagE = Sanitizer.GetSafeHtmlFragment(item.TagE);
+
+            if(item.Price != null) {
+                item.Price = (float)Math.Round((decimal)item.Price, 2);
+            }
 
             if (id != item.ItemId)
             {
