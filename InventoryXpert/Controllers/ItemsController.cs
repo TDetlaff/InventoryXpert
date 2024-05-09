@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using InventoryXpert.Data;
 using InventoryXpert.Models;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.Security.Application;
 
 namespace InventoryXpert.Controllers
 {
@@ -61,6 +62,14 @@ namespace InventoryXpert.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("ItemId,Description,Active,CategoryId,StockedQuantity,AvailableQuantity,QuantityOnOrder,Price,Location,TagA,TagB,TagC,TagD,TagE")] Item item)
         {
+            item.Description = Sanitizer.GetSafeHtmlFragment(item.Description);
+            item.Location = Sanitizer.GetSafeHtmlFragment(item.Location);
+            item.TagA = Sanitizer.GetSafeHtmlFragment(item.TagA);
+            item.TagB = Sanitizer.GetSafeHtmlFragment(item.TagB);
+            item.TagC = Sanitizer.GetSafeHtmlFragment(item.TagC);
+            item.TagD = Sanitizer.GetSafeHtmlFragment(item.TagD);
+            item.TagE = Sanitizer.GetSafeHtmlFragment(item.TagE);
+
             if (ModelState.IsValid)
             {
                 _context.Add(item);
@@ -95,6 +104,14 @@ namespace InventoryXpert.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("ItemId,Description,Active,CategoryId,StockedQuantity,AvailableQuantity,QuantityOnOrder,Price,Location,TagA,TagB,TagC,TagD,TagE")] Item item)
         {
+            item.Description = Sanitizer.GetSafeHtmlFragment(item.Description);
+            item.Location = Sanitizer.GetSafeHtmlFragment(item.Location);
+            item.TagA = Sanitizer.GetSafeHtmlFragment(item.TagA);
+            item.TagB = Sanitizer.GetSafeHtmlFragment(item.TagB);
+            item.TagC = Sanitizer.GetSafeHtmlFragment(item.TagC);
+            item.TagD = Sanitizer.GetSafeHtmlFragment(item.TagD);
+            item.TagE = Sanitizer.GetSafeHtmlFragment(item.TagE);
+
             if (id != item.ItemId)
             {
                 return NotFound();

@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using InventoryXpert.Data;
 using InventoryXpert.Models;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.Security.Application;
 
 namespace InventoryXpert.Controllers
 {
@@ -60,6 +61,15 @@ namespace InventoryXpert.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("SupplierId,SupplierName,Address,City,Region,PostalCode,Country,Phone,Fax,Email")] Supplier supplier)
         {
+            supplier.SupplierName = Sanitizer.GetSafeHtmlFragment(supplier.SupplierName);
+            supplier.Address = Sanitizer.GetSafeHtmlFragment(supplier.Address);
+            supplier.City = Sanitizer.GetSafeHtmlFragment(supplier.City);
+            supplier.Region = Sanitizer.GetSafeHtmlFragment(supplier.Region);
+            supplier.Country = Sanitizer.GetSafeHtmlFragment(supplier.Country);
+            supplier.Phone = Sanitizer.GetSafeHtmlFragment(supplier.Phone);
+            supplier.Fax = Sanitizer.GetSafeHtmlFragment(supplier.Fax);
+            supplier.Email = Sanitizer.GetSafeHtmlFragment(supplier.Email);
+
             if (ModelState.IsValid)
             {
                 _context.Add(supplier);
@@ -92,6 +102,15 @@ namespace InventoryXpert.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("SupplierId,SupplierName,Address,City,Region,PostalCode,Country,Phone,Fax,Email")] Supplier supplier)
         {
+            supplier.SupplierName = Sanitizer.GetSafeHtmlFragment(supplier.SupplierName);
+            supplier.Address = Sanitizer.GetSafeHtmlFragment(supplier.Address);
+            supplier.City = Sanitizer.GetSafeHtmlFragment(supplier.City);
+            supplier.Region = Sanitizer.GetSafeHtmlFragment(supplier.Region);
+            supplier.Country = Sanitizer.GetSafeHtmlFragment(supplier.Country);
+            supplier.Phone = Sanitizer.GetSafeHtmlFragment(supplier.Phone);
+            supplier.Fax = Sanitizer.GetSafeHtmlFragment(supplier.Fax);
+            supplier.Email = Sanitizer.GetSafeHtmlFragment(supplier.Email);
+
             if (id != supplier.SupplierId)
             {
                 return NotFound();

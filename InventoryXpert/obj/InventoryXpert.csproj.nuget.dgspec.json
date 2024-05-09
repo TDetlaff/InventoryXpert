@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\CVTC\\Capstone\\IMS-2\\InventoryXpert\\InventoryXpert.csproj": {}
+    "C:\\Users\\tjhas\\Desktop\\IMS_Main\\InventoryXpert\\InventoryXpert.csproj": {}
   },
   "projects": {
-    "C:\\CVTC\\Capstone\\IMS-2\\InventoryXpert\\InventoryXpert.csproj": {
+    "C:\\Users\\tjhas\\Desktop\\IMS_Main\\InventoryXpert\\InventoryXpert.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CVTC\\Capstone\\IMS-2\\InventoryXpert\\InventoryXpert.csproj",
+        "projectUniqueName": "C:\\Users\\tjhas\\Desktop\\IMS_Main\\InventoryXpert\\InventoryXpert.csproj",
         "projectName": "InventoryXpert",
-        "projectPath": "C:\\CVTC\\Capstone\\IMS-2\\InventoryXpert\\InventoryXpert.csproj",
-        "packagesPath": "C:\\Users\\taylo\\.nuget\\packages\\",
-        "outputPath": "C:\\CVTC\\Capstone\\IMS-2\\InventoryXpert\\obj\\",
+        "projectPath": "C:\\Users\\tjhas\\Desktop\\IMS_Main\\InventoryXpert\\InventoryXpert.csproj",
+        "packagesPath": "C:\\Users\\tjhas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tjhas\\Desktop\\IMS_Main\\InventoryXpert\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\taylo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tjhas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -38,17 +38,16 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AntiXSS": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.11, )"
@@ -99,7 +98,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

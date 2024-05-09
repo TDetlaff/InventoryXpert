@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using InventoryXpert.Data;
 using InventoryXpert.Models;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.Security.Application;
 
 namespace InventoryXpert.Controllers
 {
@@ -61,6 +62,9 @@ namespace InventoryXpert.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("CategoryId,CategoryName,Group,SupplierId")] Category category)
         {
+            category.CategoryName = Sanitizer.GetSafeHtmlFragment(category.CategoryName);
+            category.Group = Sanitizer.GetSafeHtmlFragment(category.Group);
+
             if (ModelState.IsValid)
             {
                 _context.Add(category);
@@ -95,6 +99,9 @@ namespace InventoryXpert.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("CategoryId,CategoryName,Group,SupplierId")] Category category)
         {
+            category.CategoryName = Sanitizer.GetSafeHtmlFragment(category.CategoryName);
+            category.Group = Sanitizer.GetSafeHtmlFragment(category.Group);
+
             if (id != category.CategoryId)
             {
                 return NotFound();

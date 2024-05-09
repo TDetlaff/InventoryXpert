@@ -2,6 +2,25 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "AntiXSS/4.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/AntiXssLibrary.dll": {
+            "related": ".xml"
+          },
+          "lib/net40/HtmlSanitizationLibrary.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/AntiXssLibrary.dll": {
+            "related": ".xml"
+          },
+          "lib/net40/HtmlSanitizationLibrary.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Humanizer/2.14.1": {
         "type": "package",
         "dependencies": {
@@ -4100,6 +4119,27 @@
     }
   },
   "libraries": {
+    "AntiXSS/4.3.0": {
+      "sha512": "NDEKu4wmQ109bbreNetddmufZU6gPDhVKqX+FqGiMylektPOQB+lPTtuZre41tcDLGHG7ju8z0PPZubrv4z9QQ==",
+      "type": "package",
+      "path": "antixss/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "antixss.4.3.0.nupkg.sha512",
+        "antixss.nuspec",
+        "lib/net20/AntiXssLibrary.dll",
+        "lib/net20/AntiXssLibrary.xml",
+        "lib/net35/AntiXssLibrary.dll",
+        "lib/net35/AntiXssLibrary.xml",
+        "lib/net35/HtmlSanitizationLibrary.dll",
+        "lib/net35/HtmlSanitizationLibrary.xml",
+        "lib/net40/AntiXssLibrary.dll",
+        "lib/net40/AntiXssLibrary.xml",
+        "lib/net40/HtmlSanitizationLibrary.dll",
+        "lib/net40/HtmlSanitizationLibrary.xml"
+      ]
+    },
     "Humanizer/2.14.1": {
       "sha512": "/FUTD3cEceAAmJSCPN9+J+VhGwmL/C12jvwlyM1DFXShEMsBzvLzLqSrJ2rb+k/W2znKw7JyflZgZpyE+tI7lA==",
       "type": "package",
@@ -11485,6 +11525,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "AntiXSS >= 4.3.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 6.0.11",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.29",
       "Microsoft.AspNetCore.Identity.UI >= 6.0.29",
@@ -11495,23 +11536,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\taylo\\.nuget\\packages\\": {},
+    "C:\\Users\\tjhas\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\CVTC\\Capstone\\IMS-2\\InventoryXpert\\InventoryXpert.csproj",
+      "projectUniqueName": "C:\\Users\\tjhas\\Desktop\\IMS_Main\\InventoryXpert\\InventoryXpert.csproj",
       "projectName": "InventoryXpert",
-      "projectPath": "C:\\CVTC\\Capstone\\IMS-2\\InventoryXpert\\InventoryXpert.csproj",
-      "packagesPath": "C:\\Users\\taylo\\.nuget\\packages\\",
-      "outputPath": "C:\\CVTC\\Capstone\\IMS-2\\InventoryXpert\\obj\\",
+      "projectPath": "C:\\Users\\tjhas\\Desktop\\IMS_Main\\InventoryXpert\\InventoryXpert.csproj",
+      "packagesPath": "C:\\Users\\tjhas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tjhas\\Desktop\\IMS_Main\\InventoryXpert\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\taylo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tjhas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -11532,17 +11573,16 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "AntiXSS": {
+            "target": "Package",
+            "version": "[4.3.0, )"
+          },
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
             "target": "Package",
             "version": "[6.0.11, )"
@@ -11593,8 +11633,20 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AntiXSS 4.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "AntiXSS",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
