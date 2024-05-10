@@ -1432,3 +1432,5 @@ C:\Users\tjhas\Desktop\IMS_Main\InventoryXpert\obj\Release\net6.0\refint\Invento
 C:\Users\tjhas\Desktop\IMS_Main\InventoryXpert\obj\Release\net6.0\InventoryXpert.pdb
 C:\Users\tjhas\Desktop\IMS_Main\InventoryXpert\obj\Release\net6.0\InventoryXpert.genruntimeconfig.cache
 C:\Users\tjhas\Desktop\IMS_Main\InventoryXpert\obj\Release\net6.0\ref\InventoryXpert.dll
+C:\CVTC\Capstone\IMS\InventoryXpert\bin\Release\net6.0\AntiXssLibrary.dll
+C:\CVTC\Capstone\IMS\InventoryXpert\bin\Release\net6.0\HtmlSanitizationLibrary.dll

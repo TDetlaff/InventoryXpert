@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tjhas\\Desktop\\IMS_Main\\InventoryXpert\\InventoryXpert.csproj": {}
+    "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\InventoryXpert.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tjhas\\Desktop\\IMS_Main\\InventoryXpert\\InventoryXpert.csproj": {
+    "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\InventoryXpert.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tjhas\\Desktop\\IMS_Main\\InventoryXpert\\InventoryXpert.csproj",
+        "projectUniqueName": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\InventoryXpert.csproj",
         "projectName": "InventoryXpert",
-        "projectPath": "C:\\Users\\tjhas\\Desktop\\IMS_Main\\InventoryXpert\\InventoryXpert.csproj",
-        "packagesPath": "C:\\Users\\tjhas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tjhas\\Desktop\\IMS_Main\\InventoryXpert\\obj\\",
+        "projectPath": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\InventoryXpert.csproj",
+        "packagesPath": "C:\\Users\\taylo\\.nuget\\packages\\",
+        "outputPath": "C:\\CVTC\\Capstone\\IMS\\InventoryXpert\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\tjhas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\taylo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -38,6 +38,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -98,7 +103,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

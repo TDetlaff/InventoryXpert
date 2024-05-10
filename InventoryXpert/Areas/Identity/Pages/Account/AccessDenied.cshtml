@@ -8,3 +8,13 @@
     <h1 class="text-danger">@ViewData["Title"]</h1>
     <p class="text-danger">You do not have access to this resource.</p>
 </header>
+
+@section Scripts {
+    <script>
+        // Display alert message
+        alert('Access Denied: You do not have permission to view this page.\n\nPlease log in with an authorized account.');
+
+        // Redirect to the login page
+        window.location.href = '/Identity/Account/Login';
+    </script>
+}

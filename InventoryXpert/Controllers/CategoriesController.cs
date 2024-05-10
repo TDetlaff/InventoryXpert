@@ -12,7 +12,7 @@ using Microsoft.Security.Application;
 
 namespace InventoryXpert.Controllers
 {
-    [Authorize(Roles = "Admin, User")]
+    [Authorize(Roles = "Admin")]
     public class CategoriesController : Controller
     {
         private readonly ApplicationDbContext _context;
