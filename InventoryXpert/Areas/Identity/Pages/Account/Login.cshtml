@@ -6,6 +6,7 @@
 }
 
 <h1>@ViewData["Title"]</h1>
+<div id="alertContainer"></div> <!-- Alert container -->
 <div class="row">
     <div class="col-md-4">
         <section>
@@ -76,4 +77,31 @@
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Function to extract query parameters from URL
+            function getParameterByName(name, url) {
+                if (!url) url = window.location.href;
+                name = name.replace(/[\[\]]/g, "\\$&");
+                var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                    results = regex.exec(url);
+                if (!results) return null;
+                if (!results[2]) return '';
+                return decodeURIComponent(results[2].replace(/\+/g, " "));
+            }
+
+            // Extract message from query parameter
+            var errorMessage = getParameterByName('message');
+            if (errorMessage) {
+                showAlert(errorMessage);
+            }
+
+            function showAlert(message) {
+                var alertContainer = document.getElementById('alertContainer');
+                if (alertContainer) {
+                    alertContainer.innerHTML = '<div class="alert alert-danger mt-3" role="alert">' + message + '</div>';
+                }
+            }
+        });
+    </script>
 }

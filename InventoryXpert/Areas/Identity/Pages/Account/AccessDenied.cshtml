@@ -11,10 +11,8 @@
 
 @section Scripts {
     <script>
-        // Display alert message
-        alert('Access Denied: You do not have permission to view this page.\n\nPlease log in with an authorized account.');
-
-        // Redirect to the login page
-        window.location.href = '/Identity/Account/Login';
+        // Redirect to login page with error message
+        var errorMessage = "Access Denied: You do not have permission to view this page. Please log in with an authorized account.";
+        window.location.href = '/Identity/Account/Login?message=' + encodeURIComponent(errorMessage);
     </script>
 }
